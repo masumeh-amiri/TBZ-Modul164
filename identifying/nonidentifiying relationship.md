@@ -1,7 +1,32 @@
-Hier ist ein Beispiel für eine **Identifying Relationship** und eine **Non-Identifying Relationship** in SQL:
+In der Datenbankmodellierung beziehen sich die Begriffe **identifying** und **non-identifying Relationship** auf die Art und Weise, wie Beziehungen zwischen Tabellen definiert werden und wie diese Beziehungen die Primärschlüssel der beteiligten Entitäten beeinflussen.
 
----
+### 1. **Identifying Relationship**
+- **Definition**: Eine Identifying Relationship liegt vor, wenn der Primärschlüssel der übergeordneten Tabelle (Elterntabelle) Teil des Primärschlüssels der untergeordneten Tabelle (Kindtabelle) wird. Das bedeutet, dass die Existenz der Kindtabelle von der Elterntabelle abhängt.
+- **Eigenschaften**:
+  - Die Beziehung ist **stark** und **obligatorisch**.
+  - Der Fremdschlüssel in der Kindtabelle ist gleichzeitig Teil des Primärschlüssels.
+  - Wenn die Elterntabelle gelöscht wird, wird die Kindtabelle ebenfalls betroffen sein (z. B. durch Löschung oder Einschränkung).
+- **Beispiel**:
+  - Eine Tabelle `Bestellung` hat eine Beziehung zur Tabelle `Bestellposition`. Der Primärschlüssel der `Bestellung` (z. B. `BestellID`) ist Teil des Primärschlüssels der `Bestellposition` (z. B. `BestellID` + `PositionID`). Ohne die `Bestellung` kann die `Bestellposition` nicht existieren.
 
+### 2. **Non-Identifying Relationship**
+- **Definition**: Eine Non-Identifying Relationship liegt vor, wenn der Fremdschlüssel in der Kindtabelle **nicht** Teil des Primärschlüssels ist. Die Existenz der Kindtabelle hängt nicht zwingend von der Elterntabelle ab.
+- **Eigenschaften**:
+  - Die Beziehung ist **schwächer** und **optional**.
+  - Der Fremdschlüssel in der Kindtabelle ist ein separates Attribut und nicht Teil des Primärschlüssels.
+  - Die Kindtabelle kann unabhängig von der Elterntabelle existieren.
+- **Beispiel**:
+  - Eine Tabelle `Kunde` hat eine Beziehung zur Tabelle `Adresse`. Der Fremdschlüssel `KundeID` in der `Adresse`-Tabelle ist nicht Teil des Primärschlüssels der `Adresse`. Eine `Adresse` kann unabhängig von einem `Kunde` existieren (z. B. wenn die Adresse für andere Zwecke verwendet wird).
+
+### Zusammenfassung der Unterschiede:
+| **Merkmal**               | **Identifying Relationship**         | **Non-Identifying Relationship**       |
+|---------------------------|--------------------------------------|----------------------------------------|
+| **Fremdschlüssel**        | Teil des Primärschlüssels            | Nicht Teil des Primärschlüssels        |
+| **Abhängigkeit**           | Starke Abhängigkeit                  | Schwache oder keine Abhängigkeit       |
+| **Optionalität**           | Obligatorisch                        | Optional                               |
+| **Beispiel**               | Bestellung → Bestellposition         | Kunde → Adresse                        |
+
+Diese Unterscheidung ist wichtig, um die Integrität und Struktur einer Datenbank korrekt zu modellieren.
 ### 1. **Identifying Relationship**
 In diesem Beispiel haben wir zwei Tabellen: `Bestellung` (Elterntabelle) und `Bestellposition` (Kindtabelle). Der Primärschlüssel der `Bestellung` (`BestellID`) ist Teil des Primärschlüssels der `Bestellposition`.
 
