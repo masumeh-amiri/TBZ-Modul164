@@ -54,12 +54,8 @@ In Datenbanken gibt es Beziehungen (Relationships) zwischen Tabellen, die beschr
 - **Identifying Relationships** zeigen, dass eine Entität **nur im Kontext einer anderen Entität existieren kann**.  
 - **Non-Identifying Relationships** zeigen, dass eine Entität **unabhängig** ist, aber optional mit einer anderen verknüpft sein kann.
 
-  ---
-  In SQL wird eine **Identifying Relationship** oder **Non-Identifying Relationship** nicht direkt als "Query" umgesetzt, sondern sie wird durch die **Datenbankstruktur** (Tabellen, Primärschlüssel, Fremdschlüssel) definiert. Allerdings kannst du Abfragen (Queries) schreiben, um die Beziehungen zwischen den Tabellen zu nutzen und Daten abzurufen.
-
-Hier ist eine Schritt-für-Schritt-Erklärung, wie du solche Beziehungen in SQL umsetzt und Abfragen schreibst:
-
 ---
+
 
 ### 1. **Identifying Relationship in SQL umsetzen**
 Eine Identifying Relationship bedeutet, dass der Fremdschlüssel der Kind-Tabelle Teil des Primärschlüssels ist.
