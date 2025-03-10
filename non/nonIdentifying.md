@@ -144,4 +144,147 @@ JOIN
 - **JOIN:** Verbindet Tabellen basierend auf einer Beziehung (z. B. `INNER JOIN`, `LEFT JOIN`).
 
 ---
+**"IS-A"** und **"HAS-A"** sind Konzepte, die in der Datenbankmodellierung und objektorientierten Programmierung verwendet werden, um Beziehungen zwischen Entitäten (z. B. Tabellen oder Klassen) zu beschreiben. Sie helfen dabei, die Struktur und die Beziehungen in einer Datenbank oder einem System zu verstehen.
+
+---
+
+### 1. **IS-A-Beziehung (Vererbung)**  
+Die **IS-A-Beziehung** beschreibt eine **Vererbungsbeziehung**. Das bedeutet, dass eine Entität eine spezialisierte Version einer anderen Entität ist.  
+
+#### Beispiel:
+- Ein **Auto** ist ein **Fahrzeug**.  
+- Ein **Hund** ist ein **Tier**.  
+
+In der Datenbankmodellierung wird dies oft durch **Vererbung** umgesetzt. Es gibt verschiedene Möglichkeiten, dies in einer Datenbank zu implementieren:
+
+#### a) **Single Table Inheritance (Eine Tabelle für alle):**
+- Alle Arten von Entitäten werden in einer einzigen Tabelle gespeichert.  
+- Eine Spalte (z. B. `Typ`) gibt an, um welche spezialisierte Entität es sich handelt.  
+
+**Beispiel:**  
+```sql
+CREATE TABLE Fahrzeug (
+    ID INT PRIMARY KEY,
+    Typ VARCHAR(50),  -- z. B. "Auto", "Motorrad"
+    Marke VARCHAR(100),
+    Modell VARCHAR(100),
+    AnzahlTueren INT,  -- Nur für Autos relevant
+    HelmInklusive BOOLEAN  -- Nur für Motorräder relevant
+);
+```
+
+#### b) **Class Table Inheritance (Eine Tabelle pro Klasse):**
+- Jede spezialisierte Entität hat eine eigene Tabelle, die mit der allgemeinen Tabelle verknüpft ist.  
+
+**Beispiel:**  
+```sql
+-- Allgemeine Tabelle
+CREATE TABLE Fahrzeug (
+    ID INT PRIMARY KEY,
+    Typ VARCHAR(50),
+    Marke VARCHAR(100),
+    Modell VARCHAR(100)
+);
+
+-- Spezialisierte Tabellen
+CREATE TABLE Auto (
+    ID INT PRIMARY KEY,
+    AnzahlTueren INT,
+    FOREIGN KEY (ID) REFERENCES Fahrzeug(ID)
+);
+
+CREATE TABLE Motorrad (
+    ID INT PRIMARY KEY,
+    HelmInklusive BOOLEAN,
+    FOREIGN KEY (ID) REFERENCES Fahrzeug(ID)
+);
+```
+
+---
+
+### 2. **HAS-A-Beziehung (Komposition/Aggregation)**  
+Die **HAS-A-Beziehung** beschreibt eine **Besitz- oder Teil-Ganzes-Beziehung**. Das bedeutet, dass eine Entität eine andere Entität "enthält" oder "besitzt".  
+
+#### Beispiel:
+- Ein **Auto** hat einen **Motor**.  
+- Ein **Kunde** hat eine **Adresse**.  
+
+In der Datenbank wird dies durch **Fremdschlüssel** umgesetzt.  
+
+#### Beispiel:
+```sql
+-- Tabelle: Kunde
+CREATE TABLE Kunde (
+    KundenID INT PRIMARY KEY,
+    Name VARCHAR(100)
+);
+
+-- Tabelle: Adresse (gehört zu Kunde)
+CREATE TABLE Adresse (
+    AdressID INT PRIMARY KEY,
+    KundenID INT,  -- Fremdschlüssel
+    Strasse VARCHAR(100),
+    Stadt VARCHAR(100),
+    FOREIGN KEY (KundenID) REFERENCES Kunde(KundenID)
+);
+```
+
+Hier hat ein **Kunde** eine **Adresse** (HAS-A-Beziehung). Die Adresse existiert nicht unabhängig vom Kunden.
+
+---
+
+### **Unterschied zwischen IS-A und HAS-A:**
+
+| **Merkmal**         | **IS-A (Vererbung)**                          | **HAS-A (Komposition/Aggregation)**      |
+|----------------------|-----------------------------------------------|------------------------------------------|
+| **Beziehung**        | Eine Entität ist eine spezialisierte Version einer anderen. | Eine Entität enthält oder besitzt eine andere. |
+| **Beispiel**         | Ein Auto ist ein Fahrzeug.                    | Ein Auto hat einen Motor.                |
+| **Umsetzung in SQL** | Vererbung (z. B. Single Table oder Class Table Inheritance). | Fremdschlüssel in einer Tabelle.         |
+| **Abhängigkeit**     | Die spezialisierte Entität ist von der allgemeinen Entität abhängig. | Die enthaltene Entität kann unabhängig existieren (bei Aggregation). |
+
+---
+
+### **Wann verwendet man IS-A und HAS-A?**
+- **IS-A:** Wenn du eine hierarchische Struktur modellieren möchtest, z. B. verschiedene Arten von Fahrzeugen (Auto, Motorrad, LKW).  
+- **HAS-A:** Wenn du eine Beziehung zwischen zwei Entitäten beschreiben möchtest, z. B. ein Kunde hat eine Adresse oder ein Auto hat einen Motor.
+
+---
+
+### **Beispiel in SQL:**
+
+#### IS-A (Vererbung):
+```sql
+-- Allgemeine Tabelle
+CREATE TABLE Fahrzeug (
+    ID INT PRIMARY KEY,
+    Typ VARCHAR(50),
+    Marke VARCHAR(100),
+    Modell VARCHAR(100)
+);
+
+-- Spezialisierte Tabelle
+CREATE TABLE Auto (
+    ID INT PRIMARY KEY,
+    AnzahlTueren INT,
+    FOREIGN KEY (ID) REFERENCES Fahrzeug(ID)
+);
+```
+
+#### HAS-A (Komposition):
+```sql
+-- Tabelle: Kunde
+CREATE TABLE Kunde (
+    KundenID INT PRIMARY KEY,
+    Name VARCHAR(100)
+);
+
+-- Tabelle: Adresse (gehört zu Kunde)
+CREATE TABLE Adresse (
+    AdressID INT PRIMARY KEY,
+    KundenID INT,
+    Strasse VARCHAR(100),
+    Stadt VARCHAR(100),
+    FOREIGN KEY (KundenID) REFERENCES Kunde(KundenID)
+);
+
 
