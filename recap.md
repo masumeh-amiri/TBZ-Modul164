@@ -69,7 +69,7 @@ Wir haben zwei Tabellen:
 | 102                  | 2                 | Handy   |  
 | 103                  | 3                 | Tablet  | ❌ **(Fehler: Kein Kunde mit ID 3!)**  
 
-In diesem Beispiel verstößt die dritte Bestellung gegen die referenzielle Integrität, da es keinen Kunden mit **KundeID = 3** gibt.  
+In diesem Beispiel verstösst die dritte Bestellung gegen die referenzielle Integrität, da es keinen Kunden mit **KundeID = 3** gibt.  
 
 ---
 
@@ -150,4 +150,25 @@ CREATE TABLE Student_Kurs (
 Hier sorgt die **Zwischentabelle "Student_Kurs"** für eine M:N-Beziehung.
 
 ---
+3. Anomalien in einer Datenbasis
+Anomalien treten auf, wenn eine Datenbank nicht richtig normalisiert ist. Es gibt drei Arten:
+
+Einfüge-Anomalie: Neue Daten können nicht eingefügt werden, weil abhängige Daten fehlen.
+Beispiel: Ein neuer Kunde kann nicht gespeichert werden, weil er noch keine Bestellung hat.
+Änderungs-Anomalie: Eine Änderung muss an mehreren Stellen gemacht werden, was Inkonsistenzen verursachen kann.
+Beispiel: Wenn die Adresse eines Kunden in mehreren Zeilen gespeichert ist, müssen alle geändert werden.
+Lösch-Anomalie: Durch das Löschen eines Datensatzes gehen auch wichtige Informationen verloren.
+Beispiel: Löscht man die letzte Bestellung eines Kunden, geht auch die Kundeninformation verloren.
+4. Gibt es redundante Daten? Warum?
+Ja, redundante Daten sind mehrfach gespeicherte Daten. Sie können durch schlechte Normalisierung entstehen.
+
+Problem: Redundanzen führen zu Speicherplatzverschwendung und Inkonsistenzen.
+Vermeidung: Normalisierung (z. B. durch Aufteilung in mehrere Tabellen mit Fremdschlüsseln).
+Beispiel für Redundanz:
+KundeID	Name	Adresse	Produkt
+1	Alice	Berlin	Laptop
+1	Alice	Berlin	Handy
+Hier ist die Adresse doppelt gespeichert → Redundanz.
+Lösung: Trennung in zwei Tabellen (Kunde & Bestellung).
+
 
