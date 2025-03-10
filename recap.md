@@ -48,3 +48,106 @@ Die referenzielle Integrität ist ein zentrales Prinzip in relationalen Datenban
    - **Aktualisierungsweitergabe (`ON UPDATE CASCADE`)**: Änderungen am Primärschlüsselwert werden automatisch in allen referenzierenden Fremdschlüsseln übernommen.  
 
 Durch die konsequente Anwendung dieser Regeln wird die Konsistenz und Integrität der Datenbank gewährleistet.
+
+---
+### **1. Referenzielle Integrität**  
+Referenzielle Integrität stellt sicher, dass Beziehungen zwischen Tabellen in einer Datenbank konsistent bleiben. Das bedeutet, dass ein Fremdschlüssel (Foreign Key) nur auf vorhandene Primärschlüssel (Primary Key) in einer anderen Tabelle verweisen darf.  
+
+#### **Beispiel:**  
+Wir haben zwei Tabellen:  
+
+**Kunde (Customer)**  
+| KundeID (Primary Key) | Name     |  
+|----------------------|---------|  
+| 1                   | Alice   |  
+| 2                   | Bob     |  
+
+**Bestellung (Order)**  
+| BestellID (Primary Key) | KundeID (Foreign Key) | Produkt  |  
+|----------------------|-------------------|---------|  
+| 101                  | 1                 | Laptop  |  
+| 102                  | 2                 | Handy   |  
+| 103                  | 3                 | Tablet  | ❌ **(Fehler: Kein Kunde mit ID 3!)**  
+
+In diesem Beispiel verstößt die dritte Bestellung gegen die referenzielle Integrität, da es keinen Kunden mit **KundeID = 3** gibt.  
+
+---
+
+### **2. Constraints (Einschränkungen in einer Datenbank)**  
+Constraints sind Regeln, die helfen, die Datenbankintegrität sicherzustellen.  
+
+**Wichtige Constraints:**  
+- **PRIMARY KEY** – Stellt sicher, dass eine Spalte eindeutige Werte hat.  
+- **FOREIGN KEY** – Stellt Beziehungen zwischen Tabellen sicher.  
+- **NOT NULL** – Erlaubt keine NULL-Werte.  
+- **UNIQUE** – Stellt sicher, dass alle Werte in einer Spalte einzigartig sind.  
+- **CHECK** – Definiert Bedingungen für gültige Werte.  
+- **DEFAULT** – Gibt Standardwerte vor.  
+
+#### **Beispiel:**  
+```sql
+CREATE TABLE Kunde (
+    KundeID INT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Bestellung (
+    BestellID INT PRIMARY KEY,
+    KundeID INT,
+    Produkt VARCHAR(50) NOT NULL,
+    FOREIGN KEY (KundeID) REFERENCES Kunde(KundeID)
+);
+```
+Hier stellen **PRIMARY KEY**, **NOT NULL** und **FOREIGN KEY** sicher, dass die Daten konsistent bleiben.
+
+---
+
+### **3. Beziehungstypen in Datenbanken**  
+
+Es gibt drei Haupttypen von Beziehungen zwischen Tabellen:  
+
+#### **(1) 1:1 (One-to-One)**  
+Jeder Datensatz in Tabelle A hat genau **einen** entsprechenden Datensatz in Tabelle B.  
+
+**Beispiel:**  
+Eine Tabelle **Person** und eine Tabelle **Personalausweis**:  
+- Jede Person hat genau **einen** Personalausweis.  
+
+#### **(2) 1:N (One-to-Many)**  
+Ein Datensatz in Tabelle A kann mit **mehreren** Datensätzen in Tabelle B verknüpft sein.  
+
+**Beispiel:**  
+Ein **Kunde** kann **mehrere** Bestellungen aufgeben, aber jede Bestellung gehört zu **genau einem** Kunden.  
+(Das Beispiel oben mit **Kunde** und **Bestellung** zeigt eine 1:N-Beziehung.)  
+
+#### **(3) M:N (Many-to-Many)**  
+Ein Datensatz in Tabelle A kann mit **mehreren** Datensätzen in Tabelle B verknüpft sein und umgekehrt.  
+
+**Beispiel:**  
+- Ein **Student** kann mehrere **Kurse** belegen.  
+- Ein **Kurs** kann von mehreren **Studenten** belegt werden.  
+Dafür braucht man eine **Zwischentabelle (Student_Kurs)** mit zwei Fremdschlüsseln.  
+
+```sql
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(50)
+);
+
+CREATE TABLE Kurs (
+    KursID INT PRIMARY KEY,
+    Titel VARCHAR(50)
+);
+
+CREATE TABLE Student_Kurs (
+    StudentID INT,
+    KursID INT,
+    PRIMARY KEY (StudentID, KursID),
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
+    FOREIGN KEY (KursID) REFERENCES Kurs(KursID)
+);
+```
+Hier sorgt die **Zwischentabelle "Student_Kurs"** für eine M:N-Beziehung.
+
+---
+
