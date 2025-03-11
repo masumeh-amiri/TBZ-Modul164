@@ -1,4 +1,6 @@
 ![1](menge1.jpg)
+##### Obst ⊂ Nahrung
+
 ### **Kartesisches Produkt: Warum gibt diese Abfrage kein sinnvolles Ergebnis?**  
 ```
 SELECT * FROM kunden
