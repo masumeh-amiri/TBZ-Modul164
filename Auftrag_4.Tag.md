@@ -1,6 +1,16 @@
 ![1](menge1.jpg)
 ##### Obst ⊂ Nahrung
 
+![2](menge2.jpg)
+##### Tiere∖Haustiere={Löwe,Elefant}
+![3](menge1.jpg)
+#####  PC-Spiele∩Konsolen ∩ Spiele={FIFA,GTA}
+
+![4](menge1.jpg)
+##### Sportarten ∪ Wassersport={Fußball,Basketball,Tennis,Schwimmen,Surfen,Tauchen}
+
+
+
 ### **Kartesisches Produkt: Warum gibt diese Abfrage kein sinnvolles Ergebnis?**  
 ```
 SELECT * FROM kunden
