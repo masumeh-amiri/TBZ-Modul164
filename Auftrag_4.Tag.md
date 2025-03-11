@@ -9,7 +9,7 @@
 ![4](menge4.jpg)
 ##### Sportarten ∪ Wassersport={Fußball,Basketball,Tennis,Schwimmen,Surfen,Tauchen}
 
-
+---
 
 ### **Kartesisches Produkt: Warum gibt diese Abfrage kein sinnvolles Ergebnis?**  
 ```
