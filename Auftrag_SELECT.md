@@ -5,7 +5,7 @@ SELECT * FROM kunden
 INNER JOIN orte;
 ```
 - Diese Abfrage ist fehlerhaft, weil es keine **Join-Bedingung** gibt.  
-- Dadurch wird ein **kartesisches Produkt** erzeugt: Jede Zeile aus `kunden` wird mit jeder Zeile aus `orte` kombiniert, was zu einer riesigen und sinnlosen Ergebnismenge führt.  
+ 
 - **Korrekte Lösung:** Ein `INNER JOIN` mit einer `ON`-Bedingung:
   ```
   SELECT * FROM kunden
@@ -83,10 +83,3 @@ WHERE kunden.name LIKE '%e%'
    OR orte.name LIKE '%u%'
    OR orte.name LIKE '%r%';
 ```
-
----
-
-### **Erklärung zur letzten Aufgabe (g)**  
-- Die Bedingung **`WHERE kunden.name LIKE '%e%'`** sucht nach allen Kundennamen mit einem "e".  
-- **`OR orte.name LIKE '%u%' OR orte.name LIKE '%r%'`** bedeutet, dass auch alle Orte mit "u" oder "r" berücksichtigt werden.  
-- Dadurch werden Kombinationen von Kunden und Orten angezeigt, die diese Bedingungen erfüllen.
