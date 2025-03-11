@@ -85,3 +85,19 @@ CREATE TABLE Bestellung (
   ```sql
   FK_Fahrer INT UNIQUE
   ```
+---
+Fragen:
+### Was passiert, wenn in der tbl_Ausweis der Fremdschlüssel (FS) NULL oder einen ungültigen Wert enthält?
+- FS-Wert = NULL:
+
+Wenn der Fremdschlüssel (FS) in tbl_Ausweis NULL ist, bedeutet das, dass keine Zuordnung zu einem Datensatz in der referenzierten Tabelle existiert.
+Dies ist möglich, wenn der Fremdschlüssel als NULL erlaubt.
+Falls der Fremdschlüssel als NOT NULL definiert ist, wird ein Fehler ausgegeben, da jeder Datensatz zwingend einer gültigen Referenz zugeordnet sein muss.
+FS-Wert existiert nicht als Primärschlüssel (PK) in der referenzierten Tabelle:
+
+### Wenn der Wert nicht existiert, wird eine Integritätsverletzung ausgelöst (Foreign Key Constraint Violation).
+SQL verhindert das Einfügen oder Aktualisieren des Datensatzes, wenn ein nicht vorhandener Schlüssel eingetragen wird.
+### Fügen Sie ein paar Daten in die Tabelle tbl_Projekt ein. Ist das möglich?
+Falls es eine rekursive Beziehung gibt (ein Projekt kann sich auf ein anderes Projekt beziehen), könnte eine FK-Abhängigkeit existieren.
+Falls der Fremdschlüssel auf tbl_Projekt verweist, dürfen nur Werte eingefügt werden, die bereits existieren.
+Falls das nicht der Fall ist, kann das Einfügen eines neuen Projekts scheitern, wenn keine gültige Referenz existiert.
