@@ -86,7 +86,7 @@ CREATE TABLE Bestellung (
   FK_Fahrer INT UNIQUE
   ```
 ---
-Fragen:
+## Vertiefungsfragen:
 ### Was passiert, wenn in der tbl_Ausweis der Fremdschlüssel (FS) NULL oder einen ungültigen Wert enthält?
 - FS-Wert = NULL:
 
