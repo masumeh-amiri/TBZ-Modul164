@@ -34,6 +34,7 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl
 WHERE kunden.fk_ort_postleitzahl = '79312';
 ```
+![Resultat:](bsql.jpg)
 
 ---
 
@@ -44,6 +45,7 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl
 WHERE orte.name = 'Emmendingen';
 ```
+![Resultat:](csql.jpg)
 
 ---
 
@@ -54,7 +56,7 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl
 WHERE orte.einwohnerzahl > 70000;
 ```
-
+![Resultat:](dsql.jpg)
 ---
 
 **e) Alle Orte mit weniger als 1.000.000 Einwohnern ausgeben**  
@@ -63,6 +65,8 @@ SELECT name
 FROM orte
 WHERE einwohnerzahl < 1000000;
 ```
+
+![Resultat:](esql.jpg)
 
 ---
 
@@ -73,6 +77,7 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl
 WHERE orte.einwohnerzahl BETWEEN 100000 AND 1500000;
 ```
+![Resultat:](fsql.jpg)
 
 ---
 
@@ -85,3 +90,4 @@ WHERE kunden.name LIKE '%e%'
    OR orte.name LIKE '%u%'
    OR orte.name LIKE '%r%';
 ```
+![Resultat:](gsql.jpg)
