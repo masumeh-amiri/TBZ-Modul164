@@ -1,4 +1,4 @@
-
+![1](menge1.jpg)
 ### **Kartesisches Produkt: Warum gibt diese Abfrage kein sinnvolles Ergebnis?**  
 ```
 SELECT * FROM kunden
