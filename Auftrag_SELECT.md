@@ -23,6 +23,9 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl;
 ```
 
+#### Resultat:
+
+![Resultat:]()
 ---
 
 **b) Name und Wohnort aller Kunden mit Postleitzahl 79312**  
