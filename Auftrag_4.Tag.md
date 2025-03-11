@@ -3,10 +3,10 @@
 
 ![2](menge2.jpg)
 ##### Tiere∖Haustiere={Löwe,Elefant}
-![3](menge1.jpg)
+![3](menge3.jpg)
 #####  PC-Spiele∩Konsolen ∩ Spiele={FIFA,GTA}
 
-![4](menge1.jpg)
+![4](menge4.jpg)
 ##### Sportarten ∪ Wassersport={Fußball,Basketball,Tennis,Schwimmen,Surfen,Tauchen}
 
 
