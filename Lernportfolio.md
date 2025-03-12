@@ -6,5 +6,6 @@ den Tourplaner Aufgabe aus Papier in den
 
 [recap](recap.md)  
 ### 25.2.2025
+in  diesem lektion habe ich meine ERD Entwurf mit der Lösung vergleichen, 
 ### 4.3.2025
 ### 11.3.2025
