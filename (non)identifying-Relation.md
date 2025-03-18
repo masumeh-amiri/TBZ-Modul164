@@ -1,11 +1,11 @@
-## Non-Identifying und Identifying Relationships in Datenbanken**
+## Non-Identifying und Identifying Relationships in Datenbanken
 
 
 In Datenbanken gibt es Beziehungen (Relationships) zwischen Tabellen, die beschreiben, wie die Daten miteinander verknüpft sind. Diese Beziehungen können in zwei Haupttypen unterteilt werden: **Non-Identifying** und **Identifying Relationships**. Hier ist eine einfache Erklärung:
 
 ---
 
-### 1. **Identifying Relationship (Identifizierende Beziehung)**  
+### 1. **Identifying Relationship (Identifizierende Beziehung)
 - **Was ist das?**  
   Eine Identifying Relationship liegt vor, wenn eine Entität (z. B. eine Zeile in einer Tabelle) **nur existieren kann, wenn sie mit einer anderen Entität verknüpft ist**. Das bedeutet, die "Kind"-Tabelle ist **abhängig** von der "Eltern"-Tabelle.  
 
@@ -23,7 +23,7 @@ In Datenbanken gibt es Beziehungen (Relationships) zwischen Tabellen, die beschr
 
 ---
 
-### 2. **Non-Identifying Relationship (Nicht-identifizierende Beziehung)**  
+### 2. **Non-Identifying Relationship (Nicht-identifizierende Beziehung)  
 - **Was ist das?**  
   Eine Non-Identifying Relationship liegt vor, wenn eine Entität **unabhängig** von einer anderen Entität existieren kann. Die "Kind"-Tabelle ist **nicht abhängig** von der "Eltern"-Tabelle.  
 
@@ -40,7 +40,7 @@ In Datenbanken gibt es Beziehungen (Relationships) zwischen Tabellen, die beschr
 
 ---
 
-### **Zusammenfassung der Unterschiede:**
+### **Zusammenfassung der Unterschiede:
 
 | **Merkmal**               | **Identifying Relationship**               | **Non-Identifying Relationship**         |
 |---------------------------|--------------------------------------------|------------------------------------------|
@@ -51,14 +51,14 @@ In Datenbanken gibt es Beziehungen (Relationships) zwischen Tabellen, die beschr
 
 ---
 
-### **Warum ist das wichtig?**  
+### Warum ist das wichtig? 
 - **Identifying Relationships** zeigen, dass eine Entität **nur im Kontext einer anderen Entität existieren kann**.  
 - **Non-Identifying Relationships** zeigen, dass eine Entität **unabhängig** ist, aber optional mit einer anderen verknüpft sein kann.
 
 ---
 
 
-### 1. **Identifying Relationship in SQL umsetzen**
+### 1. Identifying Relationship in SQL umsetzen
 Eine Identifying Relationship bedeutet, dass der Fremdschlüssel der Kind-Tabelle Teil des Primärschlüssels ist.
 
 #### Beispiel:
@@ -100,7 +100,7 @@ JOIN
 
 ---
 
-### 2. **Non-Identifying Relationship in SQL umsetzen**
+### 2. **Non-Identifying Relationship in SQL umsetzen
 Eine Non-Identifying Relationship bedeutet, dass der Fremdschlüssel der Kind-Tabelle **nicht** Teil des Primärschlüssels ist.
 
 #### Beispiel:
@@ -139,7 +139,7 @@ JOIN
 
 ---
 
-### 3. **Wichtige SQL-Schlüsselwörter für Beziehungen**
+### 3. **Wichtige SQL-Schlüsselwörter für Beziehungen
 - **PRIMARY KEY:** Definiert den Primärschlüssel einer Tabelle.
 - **FOREIGN KEY:** Verknüpft eine Spalte mit dem Primärschlüssel einer anderen Tabelle.
 - **JOIN:** Verbindet Tabellen basierend auf einer Beziehung (z. B. `INNER JOIN`, `LEFT JOIN`).
@@ -149,7 +149,7 @@ JOIN
 
 ---
 
-### 1. **IS-A-Beziehung (Vererbung)**  
+### 1. **IS-A-Beziehung (Vererbung) 
 Die **IS-A-Beziehung** beschreibt eine **Vererbungsbeziehung**. Das bedeutet, dass eine Entität eine spezialisierte Version einer anderen Entität ist.  
 
 #### Beispiel:
@@ -203,7 +203,7 @@ CREATE TABLE Motorrad (
 
 ---
 
-### 2. **HAS-A-Beziehung (Komposition/Aggregation)**  
+### 2. **HAS-A-Beziehung (Komposition/Aggregation) 
 Die **HAS-A-Beziehung** beschreibt eine **Besitz- oder Teil-Ganzes-Beziehung**. Das bedeutet, dass eine Entität eine andere Entität "enthält" oder "besitzt".  
 
 #### Beispiel:
@@ -234,7 +234,7 @@ Hier hat ein **Kunde** eine **Adresse** (HAS-A-Beziehung). Die Adresse existiert
 
 ---
 
-### **Unterschied zwischen IS-A und HAS-A:**
+### **Unterschied zwischen IS-A und HAS-A:
 
 | **Merkmal**         | **IS-A (Vererbung)**                          | **HAS-A (Komposition/Aggregation)**      |
 |----------------------|-----------------------------------------------|------------------------------------------|
@@ -245,13 +245,13 @@ Hier hat ein **Kunde** eine **Adresse** (HAS-A-Beziehung). Die Adresse existiert
 
 ---
 
-### **Wann verwendet man IS-A und HAS-A?**
+### **Wann verwendet man IS-A und HAS-A?
 - **IS-A:** Wenn du eine hierarchische Struktur modellieren möchtest, z. B. verschiedene Arten von Fahrzeugen (Auto, Motorrad, LKW).  
 - **HAS-A:** Wenn du eine Beziehung zwischen zwei Entitäten beschreiben möchtest, z. B. ein Kunde hat eine Adresse oder ein Auto hat einen Motor.
 
 ---
 
-### **Beispiel in SQL:**
+### **Beispiel in SQL:
 
 #### IS-A (Vererbung):
 ```sql
