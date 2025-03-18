@@ -28,11 +28,17 @@ und zusammenfassung  für die Theorien erstellt. Set für die MySQL workbench. i
 
 ### 11.3.2025
 wir haben LB1 Prüfung abgelegt . Leider habe ich meine alle miene SQL befehle und ERstellte ERD modell verloren und war nicht fähig es wieder grwinnen.
-Theorie zum        gelesen 
+Theorie zum        gelesen.
+
+
 [Auftrag4](Auftrag_4.Tag.md)
 
 
 [Checkpoint_Fragen](4.Tag_Checkpoint.md)
+
+
+
+[JOIN Tabelle](join.md)
 ### 18.3.2025 
 Resultat von LB1 züruckbekommen. Theorie zum Datenintegrität, DQL, DCL FK-Constraint-Option Regeln  und durch Merksatz (Warum Geht Herbert Oft Laufen?)
 die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in MySQL  gelernt .
