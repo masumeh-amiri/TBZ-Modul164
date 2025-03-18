@@ -1,24 +1,24 @@
-### DBMS (Datenbank Management System) Eigenschaft
+## DBMS (Datenbank Management System) Eigenschaft
 
-#### Benutzeransichten:
+### Benutzeransichten:
 Für verschiedene Benutzergruppen gibt es unterschiedliche Ansichten (Views). Diese zeigen nur bestimmte Teile der Daten oder stellen sie so dar, wie sie für die jeweilige Anwendung benötigt werden. Diese Ansichten werden in der Datenbank festgelegt.
 
-#### Konsistenzkontrolle:
+### Konsistenzkontrolle:
 Die Konsistenzkontrolle sorgt dafür, dass die Daten in der Datenbank korrekt sind und Änderungen richtig durchgeführt werden. Es gibt Regeln (Constraints), die festlegen, wie die Daten aussehen sollen. Das System überprüft diese Regeln während des Betriebs. Ausserdem wird sichergestellt, dass die Speicherstrukturen und Inhalte der Datenbank intakt sind.
 
-#### Datenzugriffskontrolle:
+### Datenzugriffskontrolle:
 Es gibt Regeln, die verhindern, dass Unbefugte auf die Daten in der Datenbank zugreifen können. Das ist besonders wichtig bei personenbezogenen Daten oder firmeninternen Informationen. Auch für die Benutzeransichten können Zugriffsrechte festgelegt werden.
 
-#### Transaktionen:
+### Transaktionen:
 Mehrere Änderungen in der Datenbank können zu einer Transaktion zusammengefasst werden. Diese wird als eine Einheit ausgeführt und entweder ganz oder gar nicht gespeichert. Wenn die Transaktion erfolgreich ist, werden die Änderungen dauerhaft in der Datenbank gespeichert.
 
-#### Mehrbenutzerfähigkeit:
+### Mehrbenutzerfähigkeit:
 Wenn mehrere Benutzer gleichzeitig auf die Datenbank zugreifen, müssen ihre Aktionen synchronisiert werden, um Konflikte zu vermeiden. Für den Benutzer sieht es so aus, als ob nur er allein auf die Daten zugreift.
 
-#### Datensicherung:
+### Datensicherung:
 Das Datenbankmanagementsystem (DBMS) muss in der Lage sein, bei Fehlern (z. B. Hardware- oder Softwareproblemen) die Datenbank wieder in einen korrekten Zustand zu bringen.
 
-#### Vorteile von Datenbanksystemen:
+### Vorteile von Datenbanksystemen:
 
 **Standards:** Eine Datenbank hilft, zentrale Standards für die Datenorganisation einzuführen, z. B. bei Namen, Formaten oder Fachbegriffen.
 
@@ -32,7 +32,7 @@ Das Datenbankmanagementsystem (DBMS) muss in der Lage sein, bei Fehlern (z. B. H
 
 **Wirtschaftlichkeit:** Durch die Zentralisierung der Daten können Unternehmen in leistungsstärkere Hardware investieren, was die Betriebskosten senkt.
 
-#### Nachteile von Datenbanksystemen:
+### Nachteile von Datenbanksystemen:
 
 **Hohe Anfangskosten:** Die Anschaffung von Hardware und Datenbanksoftware ist teuer.
 
