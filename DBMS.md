@@ -53,3 +53,7 @@ Wenn nicht mehrere Benutzer gleichzeitig auf die Daten zugreifen müssen.
 Wenn die Anwendung feste Echtzeitanforderungen hat, die ein DBMS nicht erfüllen kann.
 
 Wenn die Daten und Anwendungen einfach und stabil sind und sich nicht ändern werden.
+
+### Liste von 10 DB
+![dbList](db_range.jpg)
+
