@@ -7,12 +7,20 @@ den Tourplaner Aufgabe aus Papier in den
 [recap](recap.md)  
 ### 25.2.2025
 
-[identifingnonIdetifing-Beziehung]((non)identifying-Relation.md)
+in  diesem lektion habe ich meine ERD Entwurf mit der Lösung vergleichen, 
+und zusammenfassung  für die Theorien erstellt.
+#### zusammenfassung des identifying und non identifying Beziehung 
+
+[identifying -nonIdetifying-Beziehung]((non)identifying-Relation.md)
+#### Zusammenfassung des Generalisierung und Spezialiesierung
+
 [Generalisierung-Spezializierung](Genralisierug&spezialisierung.md)
+
+#### Zusammenfassung des Database Mangment System 
+
 [dbms](DBMS.md)
 
-Genralisierug&spezialisierung
-in  diesem lektion habe ich meine ERD Entwurf mit der Lösung vergleichen, 
+
 
 ### 4.3.2025
 
