@@ -13,7 +13,7 @@ Die referentielle Integrität wird vom **Datenbankmanagementsystem (DBMS)** sich
 ## Aggregatsfunktionen Aufgaben
 1.Welches ist das niedrigste/höchste Gehalt eines Lehrers?
 
-![A1]("/integrität_pic/integ1.jpg")
+![A1](/integrität_pic/integ1.jpg)
 
 2.Was ist das niedrigste Gehalt, das einer unserer Mathelehrer bekommt?
 ![A1]()
