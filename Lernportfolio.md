@@ -9,6 +9,8 @@ den Tourplaner Aufgabe aus Papier in den
 
 in  diesem lektion habe ich meine ERD Entwurf mit der Lösung vergleichen, 
 und zusammenfassung  für die Theorien erstellt.
+
+<font color="red">This text is red!</font>
 #### zusammenfassung des identifying und non identifying Beziehung 
 
 [identifying -nonIdetifying-Beziehung]((non)identifying-Relation.md)
