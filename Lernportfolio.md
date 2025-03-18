@@ -36,10 +36,11 @@ Theorie zum        gelesen.
 
 [Checkpoint_Fragen](4.Tag_Checkpoint.md)
 
-
-
 [JOIN Tabelle](join.md)
 ### 18.3.2025 
 Resultat von LB1 züruckbekommen. Theorie zum Datenintegrität, DQL, DCL FK-Constraint-Option Regeln  und durch Merksatz (Warum Geht Herbert Oft Laufen?)
 die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in MySQL  gelernt .
+
+### Alias Aufgabe
+[Alias Aufgabe](alias_Auftrag.md)
 
