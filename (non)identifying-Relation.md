@@ -1,4 +1,5 @@
-**Non-Identifying und Identifying Relationships in Datenbanken**
+## Non-Identifying und Identifying Relationships in Datenbanken**
+
 
 In Datenbanken gibt es Beziehungen (Relationships) zwischen Tabellen, die beschreiben, wie die Daten miteinander verknüpft sind. Diese Beziehungen können in zwei Haupttypen unterteilt werden: **Non-Identifying** und **Identifying Relationships**. Hier ist eine einfache Erklärung:
 
