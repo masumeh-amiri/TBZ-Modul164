@@ -1,3 +1,6 @@
+## Generalisierung und Spezialisierung
+
+
 Generalisierung und Spezialisierung sind Konzepte in der Datenmodellierung, insbesondere im Bereich der objektorientierten Datenbanken und des Entity-Relationship-Modells (ERM). Sie werden verwendet, um Beziehungen zwischen Entitäten (Objekten) zu beschreiben und die Struktur von Daten hierarchisch zu organisieren.
 
 ### Generalisierung (Verallgemeinerung)
