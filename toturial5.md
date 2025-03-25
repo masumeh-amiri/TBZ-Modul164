@@ -22,3 +22,18 @@
 ❌ Falls die Eingabe DD.MM.YYYY ist, wird sie falsch interpretiert oder als NULL gespeichert.
 
 ## 2. Spaltenreihenfolge ändern
+
+---
+## Datenbasis DB_Adressen Aufgabe
+- Erstellen Datenbasis
+  ![]()
+- Bulkimport
+  ![]()
+- Normalisierung
+  ![]()
+- Übertragung
+  ![]()
+- Überlegen
+  ![]()
+- Überprüfung
+  ![]()
