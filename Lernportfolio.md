@@ -94,11 +94,17 @@ Diese Einstellungen dienen dazu, den sicheren Import von Dateien zu gewährleist
 mysql -u root - password < pfad / [filename]
 ```
 Aufgaben zum sqbquery gelost 
+##### Checkpoint 
 [Checkpoint](checkpoint5.md)
+
 **Subqueries Aufgaben:**
+
 [Subselect Aufgaben](subselect.md)
+
 **Aufgaben zum Toturial zum bulk import:**
+
 [Aufgaben_bulkimport ](toturial5.md)
+[](.md)
 
 
 
