@@ -52,7 +52,11 @@ Heute  wurde das Thema subqueroes behandelt.
 mysql -u root - password < pfad / [filename]
 ```
 Aufgaben zum sqbquery gelost 
-
-[Subselect Aufgaben](subselect.md)
 [Checkpoint](checkpoint5.md)
+**Subqueries Aufgaben:**
+[Subselect Aufgaben](subselect.md)
+**Aufgaben zum Toturial zum bulk import:**
+[Aufgaben_bulkimport ](toturial5.md)
+
+
 
