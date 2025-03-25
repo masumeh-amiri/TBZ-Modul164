@@ -54,3 +54,5 @@ mysql -u root - password < pfad / [filename]
 Aufgaben zum sqbquery gelost 
 
 [Subselect Aufgaben](subselect.md)
+[Checkpoint](checkpoint5.md)
+
