@@ -1,7 +1,8 @@
+## gelöste Aufaben des Bulkimports
+
+![](/subquery_pic/import1.jpg)
 ![A1](/subquery_pic/discount_import.jpg)
 ![](/subquery_pic/discount_import2.jpg)
 ![](/subquery_pic/discount_import3.jpg)
-![](/subquery_pic/import1.jpg)
 ![](/subquery_pic/person_table.jpg)
 ![](/subquery_pic/delet_person.jpg)
-![]()
