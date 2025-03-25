@@ -26,17 +26,18 @@
 ---
 ## Datenbasis DB_Adressen Aufgabe
 ### Erstellen Datenbasis
-- 
-  ![](/subquery_pic/l2_0.jpg)
+
+![](/subquery_pic/l2_0.jpg)
   
-- Bulkimport
-    ![](/subquery_pic/l2_1.jpg)
+### Bulkimport
+![](/subquery_pic/l2_1.jpg)
 
 ### Normalisierung
   
 ![](/subquery_pic/l2_02.jpg)
 ###  Übertragung
-  ![](/subquery_pic/l2_2.jpg)
-  ![](/subquery_pic/l2_3.jpg)
+
+![](/subquery_pic/l2_2.jpg)
+![](/subquery_pic/l2_3.jpg)
 
 
