@@ -29,10 +29,11 @@ Die richtige Kodierung (CHARACTER SET) und Trennzeichen (FIELDS TERMINATED BY) m
 ### 7. Import von Spalten in anderer Reihenfolge
 Beim Import kann man angeben, in welche Spalten die Daten geschrieben werden sollen, unabhängig von der Reihenfolge in der CSV-Datei:
 
-```
-LOAD DATA INFILE 'datei.csv' 
-INTO TABLE tabelle 
+LOAD DATA INFILE 'daten.csv'
+INTO TABLE kunden
 FIELDS TERMINATED BY ',' 
-LINES TERMINATED BY '\n' 
-(col2, col1, col3);
+LINES TERMINATED BY '\n'
+(name, geburtsdatum, email)
+SET geburtsdatum = STR_TO_DATE(geburtsdatum, '%d.%m.%Y');
+
 ```
