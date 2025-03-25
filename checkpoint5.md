@@ -29,6 +29,7 @@ Die richtige Kodierung (CHARACTER SET) und Trennzeichen (FIELDS TERMINATED BY) m
 ### 7. Import von Spalten in anderer Reihenfolge
 Beim Import kann man angeben, in welche Spalten die Daten geschrieben werden sollen, unabhängig von der Reihenfolge in der CSV-Datei:
 
+```
 LOAD DATA INFILE 'daten.csv'
 INTO TABLE kunden
 FIELDS TERMINATED BY ',' 
