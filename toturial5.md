@@ -1,4 +1,4 @@
-![](/subquery/discount_import.jpg)
+![A1](/subquery/discount_import.jpg)
 ![](/subquery/discount_import2.jpg)
 ![](/subquery/discount_import3.jpg)
 ![](/subquery/import1.jpg)
