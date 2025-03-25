@@ -28,10 +28,11 @@
 - Erstellen Datenbasis
   ![](/subquery_pic/l2_0.jpg)
 - Bulkimport
-  ![](/subquery_pic/l2_1.jpg)
-- Normalisierung
   ![](/subquery_pic/l2_2.jpg)
+- Normalisierung
+
 - Übertragung
+  ![](/subquery_pic/l2_2.jpg)
   ![](/subquery_pic/l2_3.jpg)
 - Überlegen
   ![](/subquery_pic/l2_4.jpg)
