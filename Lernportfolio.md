@@ -44,3 +44,11 @@ die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in My
 ### Alias Aufgabe
 [Alias Aufgabe](alias_Auftrag.md)
 
+---
+### 25.3.2025
+Heute  wurde das Thema subqueroes behandelt.
+ es würde empfohlen dass via diesieis Befehl in der Console arbeiten :
+```
+mysql -u root - password < pfad / [filename]
+```
+
