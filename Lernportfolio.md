@@ -151,6 +151,45 @@ Aufgaben zum sqbquery gelost
    - Vorteil: Sehr geringer Speicherplatzbedarf, da jede Datei nur einmal gesichert wird.
    - Nachteil: Für die Wiederherstellung werden alle Backups vom Voll-Backup bis zum gewünschten Stand benötigt.
 
+### **Backup-Methoden für Datenbanken**  
+1. **MySQLDump**  
+   - Integrierte Backup-Funktion von MySQL via Shell-Befehl `mysqldump`.  
+   - Schnellste Methode, aber nicht von allen Hostern unterstützt .  
+
+2. **phpMyAdmin**  
+   - Ermöglicht Export von Datenbanken (z. B. im SQL-Format).  
+   - Einschränkungen: Serverabbrüche bei grossen Datenbanken, Wiederherstellung nur bis 2 MB möglich .  
+
+3. **BigDump**  
+   - Ergänzt phpMyAdmin, unterstützt grosse Backups.  
+   - Keine eigene Sicherungsfunktion .  
+
+4. **HeidiSQL**  
+   - Windows-Tool ohne PHP-Abhängigkeit, daher für grosse Backups geeignet.  
+   - Keine Automatisierung des Backup-Prozesses .  
+
+5. **Mariabackup**  
+   - Open-Source-Tool von MariaDB für physische Online-Backups (InnoDB, Aria, MyISAM).  
+   - Verfügbar für Linux und Windows .  
+
+---
+
+### **Bedeutung der Datenbanksicherung**  
+1. **Kritische Rolle von Datenbanken**  
+   - Speichern sensible Daten (Adressen, Kontoinformationen) und gewährleisten Funktion von Websites und Anwendungen .  
+
+2. **Risiken**  
+   - Externe Bedrohungen (Angriffe) und interne Probleme (Hardware-Defekte, Benutzerfehler).  
+
+3. **Ziele von Backups**  
+   - Verhindern von Datenverlust und langfristige Datensicherheit durch regelmässige Sicherungen .  
+
+4. **Empfehlungen**  
+   - Regelmässige Backups als Prävention, sichere Speicherorte und Test der Wiederherstellung .  
+
+---  
+Quellenangaben gemäss der im Text referenzierten Web-Search-Inhalte.
+
 ![arten von Backup](/subquery_pic/backup.png)
 
 
