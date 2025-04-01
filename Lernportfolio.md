@@ -106,5 +106,10 @@ Aufgaben zum sqbquery gelost
 [Aufgaben_bulkimport ](toturial5.md)
 [](.md)
 
+---
+### 1.4.2025
+
+### Backup von Datenbank , Daten normalisiert einblenden, normaliserter  Import 
+
 
 
