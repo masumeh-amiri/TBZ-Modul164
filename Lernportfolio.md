@@ -151,6 +151,6 @@ Aufgaben zum sqbquery gelost
    - Vorteil: Sehr geringer Speicherplatzbedarf, da jede Datei nur einmal gesichert wird.
    - Nachteil: Für die Wiederherstellung werden alle Backups vom Voll-Backup bis zum gewünschten Stand benötigt.
 
-!arten von Backup[backup2.png]
+!arten von Backup[/subquery_pic/backup.png]
 
 
