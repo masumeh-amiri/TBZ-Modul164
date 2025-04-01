@@ -27,8 +27,8 @@ und zusammenfassung  für die Theorien erstellt. Set für die MySQL workbench. i
 ### 4.3.2025
 
 ### 11.3.2025
-wir haben LB1 Prüfung abgelegt . Leider habe ich meine alle miene SQL befehle und ERstellte ERD modell verloren und war nicht fähig es wieder grwinnen.
-Theorie zum        gelesen.
+wir haben LB1 Prüfung abgelegt. Leider habe ich meine alle miene SQL befehle und ERstellte ERD modell verloren und war nicht fähig es wieder grwinnen.
+Theorie zum             gelesen.
 
 
 [Auftrag4](Auftrag_4.Tag.md)
@@ -87,8 +87,6 @@ Das **Laden von CSV-Dateien** in eine MySQL-Datenbank kann über den Befehl `LOA
 - Der Wert von `secure_file_priv` sollte keinen spezifischen Pfad enthalten, damit keine Einschränkungen beim Dateiimport bestehen.  
 
 Diese Einstellungen dienen dazu, den sicheren Import von Dateien zu gewährleisten und unautorisierten Zugriff auf das Dateisystem zu verhindern.
-
-
 
 ```
 mysql -u root - password < pfad / [filename]
@@ -188,8 +186,6 @@ Aufgaben zum sqbquery gelost
    - Regelmässige Backups als Prävention, sichere Speicherorte und Test der Wiederherstellung .  
 
 ---  
-Quellenangaben gemäss der im Text referenzierten Web-Search-Inhalte.
-
 ![arten von Backup](/subquery_pic/backup.png)
 
 
