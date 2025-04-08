@@ -188,4 +188,9 @@ Aufgaben zum sqbquery gelost
 ---  
 ![arten von Backup](/subquery_pic/backup.png)
 
+---
+## 7.4.2025
+Heute wurde Einführung Lernziel  Von LB2 Erklärtt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB 2 gearbeitet.
+
+
 
