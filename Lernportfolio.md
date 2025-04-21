@@ -14,19 +14,12 @@ In der Lektion habe ich ein Recap des Moduls 162 gemacht. Dabei habe ich die The
 In dieser Lektion habe ich meinen ERD-Entwurf mit der Lösung verglichen und eine Zusammenfassung der Theorien erstellt. Ich habe die MySQL Workbench eingerichtet und XAMPP installiert. Ausserdem habe ich versucht, Tabellen in der Workbench zu erstellen und mit der Option "Forward Engineering" in eine SQL-Query umzuwandeln. 
 
 
-### Zusammenfassung des Generalisierung und Spezialiesierung
 
-[Generalisierung und Spezializierung](Genralisierug&spezialisierung.md)
+[Zusammenfassung des Generalisierung und Spezialiesierung](Genralisierug&spezialisierung.md)
 
-### zusammenfassung des identifying und non identifying Beziehung 
+[Zusammenfassung des identifying und non identifying Beziehung ]((non)identifying-Relation.md)
 
-[Identifying -NonIdetifying-Beziehung]((non)identifying-Relation.md)
-
-
-### Zusammenfassung des Database Mangment System 
-
-[DBMS](DBMS.md)
-
+[Zusammenfassung des Database Mangment System](DBMS.md)
 
 [Auftrag Fragen](Auftrag2.md)
 
