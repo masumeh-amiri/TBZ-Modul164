@@ -39,8 +39,6 @@ Ich habe Inhalte zur Mengenlehre und DQL mit JOIN gelesen und Aufträge dazu gel
 
 [Auftrag4](Auftrag_4.Tag.md)
 
-[JOIN Tabelle](join.md)
-
 [Checkpoint_Fragen](4.Tag_Checkpoint.md)
 
 ---
