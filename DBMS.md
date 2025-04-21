@@ -55,5 +55,5 @@ Wenn die Anwendung feste Echtzeitanforderungen hat, die ein DBMS nicht erfüllen
 Wenn die Daten und Anwendungen einfach und stabil sind und sich nicht ändern werden.
 
 ### Liste von 10 DB
-![dbList](db_range.jpg)
+![dbList](integrität_pic/db_range.jpg)
 
