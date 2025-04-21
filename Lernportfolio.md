@@ -38,7 +38,9 @@ und zusammenfassung  für die Theorien erstellt. Set für die MySQL workbench. i
 ### 4.3.2025
 Heute habe ich sehr viele Aufgaben  mit SELECT, INSERT, UPDATE, DROP, Alter Befehle geölst und EDR Model zum auftrag erstellt. unterschiede zwischen  Mehrfachbeziehungen,Rekursion (strenge Hierarchie) und  Einfache Hierarchie (mit Zwischentabelle) angeschaut.  
 
-![gelöste Aufträge](Aufgaben_tag3.md)
+[Zusammenfassung(zusammenfassung3.md)
+
+[gelöste Aufträge](Aufgaben_tag3.md)
 
 ---
 ### 11.3.2025
