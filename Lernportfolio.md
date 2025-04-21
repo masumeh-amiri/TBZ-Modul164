@@ -37,8 +37,8 @@ Heute habe ich Aufgaben mit DML- und DQL-Befehlen (SELECT, INSERT, UPDATE, DROP,
 Wir haben die LB1-Prüfung abgelegt. Leider habe ich beim praktischen Teil alle meine SQL-Befehle und das erstellte ERD-Modell verloren und konnte sie nicht wiederherstellen.
 Ich habe Inhalte zur Mengenlehre und DQL mit JOIN gelesen und Aufträge dazu gelöst.
 
-[Auftrag4](Auftrag_4.Tag.md)
-
+[Auftrag Mengenlehre](Auftrag_4.Tag.md)
+[Auftrag SELCET_JOIN](Select-join.md)
 [Checkpoint_Fragen](4.Tag_Checkpoint.md)
 
 ---
