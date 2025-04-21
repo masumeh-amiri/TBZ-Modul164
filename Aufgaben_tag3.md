@@ -349,7 +349,7 @@ ORDER BY laenge_minuten DESC;
 
 
 ## Auftrag - Erweiterter Tourenplaner mit Daten füllen
-![ERD Modell](mitarbeiter.md)
+![ERD Modell](integrität_pic/mitarbeiter.jpg)
 
 
 ```
