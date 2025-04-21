@@ -1,9 +1,11 @@
 ### 18.02.2025
-in die lektion haben wir eine rcap von modul 162 gemacht über normalisierung, Konzeptionelles Datenmodell (ERM)
-Logisches Datenmodell (ERD)
-Physisches Datenmodell in SQL 
-den Tourplaner Aufgabe auf Papier oder  in den und in den Workbench realisierrt:
+Gerne! Hier ist dein Text verbessert und klarer formuliert:
 
+---
+
+**Verbesserte Version:**
+In der Lektion habe ich ein Recap des Moduls 162 gemacht. Dabei habe ich die Themen **Normalisierung**, **Konzeptionelles Datenmodell (ERM)**, **Logisches Datenmodell (ERD)** und **Physisches Datenmodell in SQL** wiederholt.  
+ Anschliessend haben wir  die **Tourplaner-Aufgabe** entweder auf Papier oder in der **Workbench** umgesetzt.
 
 [SQL file](fahrt_normalisiert.sql)
 
@@ -13,9 +15,7 @@ den Tourplaner Aufgabe auf Papier oder  in den und in den Workbench realisierrt:
 
 [recap](recap.md)  
 ### 25.2.2025
-
-in  diesem lektion habe ich meine ERD Entwurf mit der Lösung vergleichen, 
-und zusammenfassung  für die Theorien erstellt. Set für die MySQL workbench. installieren von , XAMP sowie erstellen die Tabelle in  workbecnch un mit der option forward inginiering in sql query umwandel versucht jedoch war ich nicht erfolgreich 
+In dieser Lektion habe ich meinen ERD-Entwurf mit der Lösung verglichen und eine Zusammenfassung der Theorien erstellt. Ich habe die MySQL Workbench eingerichtet und XAMPP installiert. Außerdem habe ich versucht, Tabellen in der Workbench zu erstellen und mit der Option "Forward Engineering" in eine SQL-Query umzuwandeln. 
 
 
 ### Zusammenfassung des Generalisierung und Spezialiesierung
@@ -36,7 +36,8 @@ und zusammenfassung  für die Theorien erstellt. Set für die MySQL workbench. i
 
 ---
 ### 4.3.2025
-Heute habe ich sehr viele Aufgaben  mit SELECT, INSERT, UPDATE, DROP, Alter Befehle geölst und EDR Model zum auftrag erstellt. unterschiede zwischen  Mehrfachbeziehungen,Rekursion (strenge Hierarchie) und  Einfache Hierarchie (mit Zwischentabelle) angeschaut.  
+
+Heute habe ich Aufgaben mit DML- und DQL-Befehlen (SELECT, INSERT, UPDATE, DROP, ALTER) gelöst und ein ERD-Modell zum Auftrag erstellt. Ausserdem habe ich die Unterschiede zwischen Mehrfachbeziehungen, Rekursion (strenge Hierarchie) und einfacher Hierarchie (mit Zwischentabelle) angeschaut.
 
 [Zusammenfassung](zusammenfassung3.md)
 
