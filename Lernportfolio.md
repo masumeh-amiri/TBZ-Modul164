@@ -2,7 +2,11 @@
 in die lektion haben wir eine rcap von modul 162 gemacht über normalisierung, Konzeptionelles Datenmodell (ERM)
 Logisches Datenmodell (ERD)
 Physisches Datenmodell in SQL 
-den Tourplaner Aufgabe aus Papier in den
+den Tourplaner Aufgabe aus Papier in den und in den Workbench realisierrt:
+![fahrt_normalisiert.sql]
+![tourfahrt1.md]
+
+
 
 [recap](recap.md)  
 ### 25.2.2025
