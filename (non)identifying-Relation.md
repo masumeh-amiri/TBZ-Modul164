@@ -3,10 +3,8 @@
 
 In Datenbanken gibt es Beziehungen (Relationships) zwischen Tabellen, die beschreiben, wie die Daten miteinander verknüpft sind. Diese Beziehungen können in zwei Haupttypen unterteilt werden: **Non-Identifying** und **Identifying Relationships**. Hier ist eine einfache Erklärung:
 
----
 
 ### 1.Identifying Relationship (Identifizierende Beziehung)
-- **Was ist das?**  
   Eine Identifying Relationship liegt vor, wenn eine Entität (z. B. eine Zeile in einer Tabelle) **nur existieren kann, wenn sie mit einer anderen Entität verknüpft ist**. Das bedeutet, die "Kind"-Tabelle ist **abhängig** von der "Eltern"-Tabelle.  
 
 - **Beispiel:**  
@@ -24,7 +22,6 @@ In Datenbanken gibt es Beziehungen (Relationships) zwischen Tabellen, die beschr
 ---
 
 ### 2.Non-Identifying Relationship (Nicht-identifizierende Beziehung)  
-- **Was ist das?**  
   Eine Non-Identifying Relationship liegt vor, wenn eine Entität **unabhängig** von einer anderen Entität existieren kann. Die "Kind"-Tabelle ist **nicht abhängig** von der "Eltern"-Tabelle.  
 
 - **Beispiel:**  
