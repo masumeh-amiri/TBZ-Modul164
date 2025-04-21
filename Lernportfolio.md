@@ -27,13 +27,12 @@ und zusammenfassung  für die Theorien erstellt. Set für die MySQL workbench. i
 [identifying -nonIdetifying-Beziehung]((non)identifying-Relation.md)
 
 
-[beispiel](beispiel2.md)
-
 ### Zusammenfassung des Database Mangment System 
 
 [DBMS](DBMS.md)
 
 
+[Auftrag Fragen](Auftrag2.md)
 
 ### 4.3.2025
 
