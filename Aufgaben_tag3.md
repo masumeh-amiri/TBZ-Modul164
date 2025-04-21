@@ -347,6 +347,7 @@ ORDER BY laenge_minuten DESC;
 ![Resultat:](integrität_pic/selgj.jpg)
 ![Resultat:](integrität_pic/selk-n.jpg)
 
+---
 
 ## Auftrag - Erweiterter Tourenplaner mit Daten füllen
 ![ERD Modell](integrität_pic/mitarbeiter.jpg)
