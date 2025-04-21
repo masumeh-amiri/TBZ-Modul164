@@ -83,8 +83,13 @@ Aufgaben zum sqbquery gelost
 [zusammenfassung](zusammenfassung7.md)
 
 ---
-### 7.4.2025(Tag8)
+### 8.4.2025(Tag8)
 Heute wurde Einführung Lernziel  Von LB2 Erklärtt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB 2 gearbeitet.
 
+---
+### 8.4.2025(Tag9)
+in diese lektion war ich abwesend wegen der Krankheit.
+
+### 6.5.2025(Tag 10)
 
 
