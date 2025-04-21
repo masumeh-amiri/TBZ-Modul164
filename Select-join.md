@@ -107,4 +107,4 @@ Möchtest du zusätzlich, dass ich dir noch die **Ergebnisse** dieser Abfragen a
 
 ![result](integrität_pic/join1-3.jpg)
 ![result](integrität_pic/join4-6.jpg)
-![result](integrität_pic/join7-9jpg)
+![result](integrität_pic/join7-9.jpg)
