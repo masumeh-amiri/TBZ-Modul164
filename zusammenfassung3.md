@@ -30,14 +30,6 @@ Strenge Hierarchie bedeutet: klare Ebenen, kein Kreis, immer nur eine Richtung.
 
 Beispiel: In einer Firma hat jeder Mitarbeiter genau einen Chef und dieser Chef hat auch einen Chef usw.
 
-In der Tabelle gibt es dann ein Feld wie "Chef_ID", das wieder auf die gleiche Tabelle zeigt.
-
-[Mitarbeiter]
-    |
-    
-    |-- Chef_ID (zeigt auf einen anderen Mitarbeiter)
-
-
 Ein Mitarbeiter hat genau einen Chef.
 
 Chef_ID verweist auf die ID eines anderen Mitarbeiters.
