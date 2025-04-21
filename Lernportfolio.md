@@ -11,7 +11,7 @@ In der Lektion habe ich ein Recap des Moduls 162 gemacht. Dabei habe ich die The
 
 [recap](recap.md)  
 ### 25.2.2025(Tag2)
-In dieser Lektion habe ich meinen ERD-Entwurf mit der Lösung verglichen und eine Zusammenfassung der Theorien erstellt. Ich habe die MySQL Workbench eingerichtet und XAMPP installiert. Außerdem habe ich versucht, Tabellen in der Workbench zu erstellen und mit der Option "Forward Engineering" in eine SQL-Query umzuwandeln. 
+In dieser Lektion habe ich meinen ERD-Entwurf mit der Lösung verglichen und eine Zusammenfassung der Theorien erstellt. Ich habe die MySQL Workbench eingerichtet und XAMPP installiert. Ausserdem habe ich versucht, Tabellen in der Workbench zu erstellen und mit der Option "Forward Engineering" in eine SQL-Query umzuwandeln. 
 
 
 ### Zusammenfassung des Generalisierung und Spezialiesierung
