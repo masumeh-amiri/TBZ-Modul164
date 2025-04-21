@@ -407,4 +407,26 @@ VALUES
 (2, 5); -- Theo Dohr → Diana Knecht
 
 ```
+### Tabellen für Touren und Mehrfachbeziehungen erstellen
+
+```
+
+-- Tabelle tbl_Tour
+CREATE TABLE tbl_Tour (
+    ID_Tour INT NOT NULL PRIMARY KEY,
+    Start_Ort VARCHAR(255),
+    Ziel_Ort VARCHAR(255),
+    FS_Disponent INT,
+    FOREIGN KEY (FS_Disponent) REFERENCES tbl_Mitarbeiter(ID_Mitarbeiter)
+);
+
+-- Tabelle tbl_Via
+CREATE TABLE tbl_Via (
+    ID_Via INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    FS_Tour INT,
+    Via_Ort VARCHAR(255),
+    FOREIGN KEY (FS_Tour) REFERENCES tbl_Tour(ID_Tour)
+);
+
+```
 
