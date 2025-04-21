@@ -1,5 +1,4 @@
-Aufgabe 1
-
+## Aufgabe Datentype
 
 | **Datentyp**                                        | **MariaDB (MySQL)**           | **Beispiel**                 | **Bemerkung / Einstellungen**                                  |
 |-----------------------------------------------------|-------------------------------|------------------------------|----------------------------------------------------------------|
@@ -19,7 +18,7 @@ Aufgabe 1
 | JSON                                                | JSON                          | '{ "name": "Max" }'         | Ab MariaDB 10.2.7, intern als LONGTEXT gespeichert             |
 
 ---
-## Auftrag insert 
+## Auftrag Insert 
 
 ### **a. Heinrich Schmitt aus Zürich, Schweiz (Kurzform)**
 
@@ -67,7 +66,7 @@ INSERT INTO kunden (nachname, wohnort) VALUES ('Bulgur', 'Sirnach');
 INSERT INTO kunden (vorname, nachname) VALUES ('Maria', 'Manta');
 ```
 ---
-2-
+## Frahgeb mit fehler finden:
 
 
 ### **a. Fehler: Fehlender Tabellenname**
