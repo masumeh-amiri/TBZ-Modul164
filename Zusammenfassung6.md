@@ -1,5 +1,5 @@
 
-**Subselects in MySQL**  
+### Subselects in MySQL  
 
 Ein **Subselect** (Unterabfrage) ist eine SQL-Abfrage, die innerhalb einer anderen Abfrage eingebettet ist. Es wird genutzt, um Daten aus einer Tabelle basierend auf Bedingungen abzurufen, die durch eine andere Abfrage bestimmt werden. Subselects können an verschiedenen Stellen in einer SQL-Abfrage vorkommen, beispielsweise in den **WHERE**, **FROM**, **HAVING** oder **SELECT**-Klauseln. Zudem lassen sich Subselects in **UPDATE**, **DELETE** oder **INSERT**-Anweisungen verwenden.  
 
