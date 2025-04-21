@@ -339,3 +339,8 @@ WHERE regisseur = 'Quentin Tarantino'
 ORDER BY laenge_minuten DESC;
 ```
 
+![Resultat:](integrität_pic/sel1.jpg)
+![Resultat:](integrität_pic/selb-c.jpg)
+![Resultat:](integrität_pic/seld-f.jpg)
+![Resultat:](integrität_pic/selgj.jpg)
+![Resultat:](integrität_pic/selk-n.jpg)
