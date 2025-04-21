@@ -38,7 +38,9 @@ Wir haben die LB1-Prüfung abgelegt. Leider habe ich beim praktischen Teil alle 
 Ich habe Inhalte zur Mengenlehre und DQL mit JOIN gelesen und Aufträge dazu gelöst.
 
 [Auftrag Mengenlehre](Auftrag_4.Tag.md)
+
 [Auftrag SELCET_JOIN](Select-join.md)
+
 [Checkpoint_Fragen](4.Tag_Checkpoint.md)
 
 ---
