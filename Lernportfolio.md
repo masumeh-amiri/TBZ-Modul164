@@ -3,8 +3,8 @@ in die lektion haben wir eine rcap von modul 162 gemacht über normalisierung, K
 Logisches Datenmodell (ERD)
 Physisches Datenmodell in SQL 
 den Tourplaner Aufgabe aus Papier in den und in den Workbench realisierrt:
-![fahrt_normalisiert.sql]
-![tourfahrt1.md]
+[SQL file](fahrt_normalisiert.sql)
+[ERD Model in Workbench](tourfahrt1.md)
 
 
 
