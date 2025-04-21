@@ -32,7 +32,6 @@ Beispiel: In einer Firma hat jeder Mitarbeiter genau einen Chef und dieser Chef 
 
 In der Tabelle gibt es dann ein Feld wie "Chef_ID", das wieder auf die gleiche Tabelle zeigt.
 
-
 [Mitarbeiter]
     |
     |-- Chef_ID (zeigt auf einen anderen Mitarbeiter)
