@@ -34,6 +34,7 @@ In der Tabelle gibt es dann ein Feld wie "Chef_ID", das wieder auf die gleiche T
 
 [Mitarbeiter]
     |
+    
     |-- Chef_ID (zeigt auf einen anderen Mitarbeiter)
 
 
