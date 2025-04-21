@@ -102,9 +102,9 @@ Möchtest du zusätzlich, dass ich dir noch die **Ergebnisse** dieser Abfragen a
 
 ## Resultate:
 ![result](integrität_pic/joina-c.jpg)
-![result](intägrität_pic/joinD-f.jpg)
-![result](intägrität_pic/joinG.jpg)
+![result](integrität_pic/joinD-f.jpg)
+![result](integrität_pic/joinG.jpg)
 
-![result](intägrität_pic/join1-3.jpg)
-![result](intägrität_pic/join4-6.jpg)
-![result](intägrität_pic/join7-9jpg)
+![result](integrität_pic/join1-3.jpg)
+![result](integrität_pic/join4-6.jpg)
+![result](integrität_pic/join7-9jpg)
