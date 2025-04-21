@@ -1,9 +1,5 @@
 ### 18.02.2025
-Gerne! Hier ist dein Text verbessert und klarer formuliert:
 
----
-
-**Verbesserte Version:**
 In der Lektion habe ich ein Recap des Moduls 162 gemacht. Dabei habe ich die Themen **Normalisierung**, **Konzeptionelles Datenmodell (ERM)**, **Logisches Datenmodell (ERD)** und **Physisches Datenmodell in SQL** wiederholt.  
  Anschliessend haben wir  die **Tourplaner-Aufgabe** entweder auf Papier oder in der **Workbench** umgesetzt.
 
