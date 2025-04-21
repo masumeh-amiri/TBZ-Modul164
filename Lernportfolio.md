@@ -54,13 +54,15 @@ die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in My
 ---
 ### 25.3.2025
 Heute  wurde das Thema subqueroes behandelt.
- es würde empfohlen dass via diesieis Befehl in der Console arbeiten :
+ es würde empfohlen dass via diesieis Befehl in der Console arbeiten 
+```
+mysql -u root -h hostname
+```
+
+ 
 #### Zusammenfassung diese Lektion:
 [zusammenfassung](Zusammenfassung6.md)
 
-```
-mysql -u root - password < pfad / [filename]
-```
 Aufgaben zum sqbquery gelost 
 ##### Checkpoint 
 [Checkpoint](checkpoint5.md)
