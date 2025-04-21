@@ -147,7 +147,7 @@ INSERT INTO kunden (nachname, wohnort, land_id) VALUES ('Christoph', 'Fesenkampp
 
 ---
 
-### **h. Dieser Befehl ist korrekt! 🎉**
+### **h. Dieser Befehl ist korrekt!**
 
 ```
 -- Korrekt:
