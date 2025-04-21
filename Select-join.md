@@ -101,7 +101,7 @@ Möchtest du zusätzlich, dass ich dir noch die **Ergebnisse** dieser Abfragen a
 (Also eine kleine Tabelle mit Beispielen, was wirklich rauskommt?)
 
 ## Resultate:
-![result](intägrität_pic/joina-c.jpg)
+![result](integrität_pic/joina-c.jpg)
 ![result](intägrität_pic/joinD-f.jpg)
 ![result](intägrität_pic/joinG.jpg)
 
