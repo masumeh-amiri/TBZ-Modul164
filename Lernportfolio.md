@@ -41,16 +41,16 @@ Heute habe ich Aufgaben mit DML- und DQL-Befehlen (SELECT, INSERT, UPDATE, DROP,
 
 ---
 ### 11.3.2025(Tag4)
-wir haben LB1 Prüfung abgelegt. Leider habe ich meine alle miene SQL befehle und ERstellte ERD modell verloren und war nicht fähig es wieder grwinnen.
-Theorie zum             gelesen.
-
+Wir haben die LB1-Prüfung abgelegt. Leider habe ich beim praktischen Teil alle meine SQL-Befehle und das erstellte ERD-Modell verloren und konnte sie nicht wiederherstellen.
+Ich habe Inhalte zur Mengenlehre und DQL mit JOIN gelesen und Aufträge dazu gelöst.
 
 [Auftrag4](Auftrag_4.Tag.md)
 
+[JOIN Tabelle](join.md)
 
 [Checkpoint_Fragen](4.Tag_Checkpoint.md)
 
-[JOIN Tabelle](join.md)
+---
 ### 18.3.2025(Tag5)
 Resultat von LB1 züruckbekommen. Theorie zum Datenintegrität, DQL, DCL FK-Constraint-Option Regeln  und durch Merksatz (Warum Geht Herbert Oft Laufen?)
 die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in MySQL  gelernt .
