@@ -7,13 +7,13 @@ SELECT \__________________\_ FROM kunden AS kundenliste
     \-- ausgegeben werden sollen kunde_id, Name des Kunden und Postleitzahl des Kunden
 
 
-![Aufgabe1](alias1.jpg)
+![Aufgabe1](integrität_pic/alias1.jpg)
 
 
 SELECT o.name, k.name FROM \__________________\_ 
      WHERE o.name LIKE '%n' AND o.postleitzahl = k.ort_postleitzahl
 
-![Aufgabe1](alias2.jpg)
+![Aufgabe1](integrität_pic/alias2.jpg)
 
 Korrigieren Sie die folgenden Statements, dass sie funktionieren.
 
@@ -25,7 +25,7 @@ SELECT kunde_id, kunden.name, orte.name FROM kunden AS hrgs
     ON o.postleitzahl = k.ort_postleitzahl 
     ORDER BY k.kunde_id
 
-![Aufgabe1](alias3.jpg)
+![Aufgabe1](integrität_pic/alias3.jpg)
 
 
 
@@ -33,4 +33,4 @@ SELECT kunde_id, kunden.name, orte.name FROM kunden AS hrgs
 
     SELECT k.name, o.postleitzahl, o.name FROM kunden, orte WHERE k.name LIKE '%a%' AND o.name LIKE '%u%' AND k.ort_postleitzahl = o.postleitzahl
 
-![Aufgabe1](alias4.jpg)
+![Aufgabe1](integrität_pic/alias4.jpg)
