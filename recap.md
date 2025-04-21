@@ -93,10 +93,12 @@ Ja, redundante Daten sind mehrfach gespeicherte Daten. Sie können durch schlech
 
 #### Problem: Redundanzen führen zu Speicherplatzverschwendung und Inkonsistenzen.
 **Vermeidung:**  Normalisierung (z. B. durch Aufteilung in mehrere Tabellen mit Fremdschlüsseln).
-Beispiel für Redundanz:
-|KundeID|	Name	|Adresse	|Produkt| 
-|1	|Alice	|Berlin	|Laptop|
-|1	|Alice|	Berlin	|Handy|
+### Beispiel für Redundanz:
+
+| KundeID | Name  | Adresse | Produkt |
+|---------|-------|---------|---------|
+| 1       | Alice | Berlin  | Laptop  |
+| 1       | Alice | Berlin  | Handy   |
 
 Hier ist die Adresse doppelt gespeichert → Redundanz.
 **Lösung:** Trennung in zwei Tabellen (Kunde & Bestellung).
