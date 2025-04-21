@@ -1,12 +1,12 @@
-![1](menge1.jpg)
+![1](integrität_pic/menge1.jpg)
 ##### Obst ⊂ Nahrung
 
-![2](menge2.jpg)
+![2](integrität_pic/menge2.jpg)
 ##### Tiere∖Haustiere={Löwe,Elefant}
-![3](menge3.jpg)
+![3](integrität_pic/menge3.jpg)
 #####  PC-Spiele∩Konsolen ∩ Spiele={FIFA,GTA}
 
-![4](menge4.jpg)
+![4](integrität_pic/menge4.jpg)
 ##### Sportarten ∪ Wassersport={Fußball,Basketball,Tennis,Schwimmen,Surfen,Tauchen}
 
 ---
@@ -35,7 +35,7 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl;
 ```
 
-![Resultat:](asql.jpg)
+![Resultat:](integrität_pic/asql.jpg)
 
 ---
 
@@ -46,7 +46,7 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl
 WHERE kunden.fk_ort_postleitzahl = '79312';
 ```
-![Resultat:](bsql.jpg)
+![Resultat:](integrität_pic/bsql.jpg)
 
 ---
 
@@ -57,7 +57,7 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl
 WHERE orte.name = 'Emmendingen';
 ```
-![Resultat:](csql.jpg)
+![Resultat:](integrität_pic/csql.jpg)
 
 ---
 
@@ -68,7 +68,9 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl
 WHERE orte.einwohnerzahl > 70000;
 ```
-![Resultat:](dsql.jpg)
+
+![Resultat:](integrität_pic/dsql.jpg)
+
 ---
 
 **e) Alle Orte mit weniger als 1.000.000 Einwohnern ausgeben**  
@@ -78,7 +80,7 @@ FROM orte
 WHERE einwohnerzahl < 1000000;
 ```
 
-![Resultat:](esql.jpg)
+![Resultat:](integrität_pic/esql.jpg)
 
 ---
 
@@ -89,7 +91,7 @@ FROM kunden
 INNER JOIN orte ON kunden.fk_ort_postleitzahl = orte.id_postleitzahl
 WHERE orte.einwohnerzahl BETWEEN 100000 AND 1500000;
 ```
-![Resultat:](fsql.jpg)
+![Resultat:](integrität_pic/fsql.jpg)
 
 ---
 
@@ -102,4 +104,4 @@ WHERE kunden.name LIKE '%e%'
    OR orte.name LIKE '%u%'
    OR orte.name LIKE '%r%';
 ```
-![Resultat:](gsql.jpg)
+![Resultat:](integrität_pic/gsql.jpg)
