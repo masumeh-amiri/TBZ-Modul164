@@ -338,6 +338,8 @@ SELECT * FROM dvd_sammlung
 WHERE regisseur = 'Quentin Tarantino' 
 ORDER BY laenge_minuten DESC;
 ```
+---
+## Resultate:
 
 ![Resultat:](integrität_pic/sel1.jpg)
 ![Resultat:](integrität_pic/selb-c.jpg)
