@@ -95,7 +95,6 @@ JOIN
     Bestellposition ON Bestellung.BestellID = Bestellposition.BestellID;
 ```
 
----
 
 ### 2.Non-Identifying Relationship in SQL umsetzen
 Eine Non-Identifying Relationship bedeutet, dass der Fremdschlüssel der Kind-Tabelle **nicht** Teil des Primärschlüssels ist.
@@ -145,6 +144,49 @@ JOIN
 **"IS-A"** und **"HAS-A"** sind Konzepte, die in der Datenbankmodellierung und objektorientierten Programmierung verwendet werden, um Beziehungen zwischen Entitäten (z. B. Tabellen oder Klassen) zu beschreiben. Sie helfen dabei, die Struktur und die Beziehungen in einer Datenbank oder einem System zu verstehen.
 
 ---
+### weiter Beispiele:
+### Beispiel 1: Identifizierende Beziehung
+
+**Beziehung:** **Person -- Ausweis**
+
+- Der Ausweis ist ohne die Person nicht eindeutig identifizierbar. Die **PersonID** ist daher Teil des Primärschlüssels des Ausweises.
+
+**Datenbankmodell:**
+```sql
+Person (PersonID, Name)
+Ausweis (AusweisID, Ausweisnummer, PersonID)
+```
+- **Primärschlüssel Ausweis:** (AusweisID, PersonID)
+
+### Beispiel 2: Nicht-Identifizierende Beziehung
+
+**Beziehung:** **Person -- Kleidungsstück**
+
+- Das Kleidungsstück hat eine eigene Identität und kann ohne die Person existieren. Es wird über eine **Person_Kleidungsstück**-Tabelle verbunden.
+
+**Datenbankmodell:**
+```sql
+Person (PersonID, Name)
+Kleidungsstück (KleidungsstückID, Bezeichnung)
+Person_Kleidungsstück (PersonID, KleidungsstückID)
+```
+- **Primärschlüssel Kleidungsstück:** KleidungsstückID
+
+### Beispiel für Identifizierende Beziehung:
+
+**Beziehung:** **Firma -- Vertrag**
+
+- Der Vertrag ist nur durch die Firma eindeutig identifizierbar, da der Vertrag ohne Firma keine eigenständige Identität hat.
+
+**Datenbankmodell:**
+```sql
+Firma (FirmaID, Name)
+Vertrag (VertragID, FirmaID)
+```
+- **Primärschlüssel Vertrag:** (VertragID, FirmaID)
+  
+---
+
 
 ### 1.IS-A-Beziehung (Vererbung) 
 Die **IS-A-Beziehung** beschreibt eine **Vererbungsbeziehung**. Das bedeutet, dass eine Entität eine spezialisierte Version einer anderen Entität ist.  
