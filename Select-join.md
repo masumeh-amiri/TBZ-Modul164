@@ -1,4 +1,4 @@
-
+## Auftrag SELECT-JOIN:
 **Frage:**  
 Warum gibt diese Abfrage kein sinnvolles Ergebnis?
 
@@ -96,14 +96,13 @@ WHERE k.name LIKE '%e%'
 ```
 
 ---
-
-
-## Resultate Auftrag SELECT-JOIN:
+## Resultate:
 ![result](integrität_pic/joina-c.jpg)
 ![result](integrität_pic/joinD-f.jpg)
 ![result](integrität_pic/joinG.jpg)
 
 ---
+## Auftrag SELECT-JOIN(Fortgeschrittene ):
 ### 1. Lieferanten in Freiburg
 
 ```sql
@@ -218,7 +217,7 @@ GROUP BY b.titel
 ORDER BY b.titel ASC;
 ```
 
-## Resultate Auftrag SELECT-JOIN(Fortgeschrittene ):
+## Resultate:
 ![result](integrität_pic/join1-3.jpg)
 ![result](integrität_pic/join4-6.jpg)
 ![result](integrität_pic/join7-9.jpg)
