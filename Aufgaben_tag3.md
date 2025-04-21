@@ -186,6 +186,7 @@ INSERT INTO kunden VALUE ('', 'Jochen', 'Schmied', 2, Solingen);
 -- Korrekt:
 INSERT INTO kunden (vorname, nachname, land_id, wohnort) VALUES ('Jochen', 'Schmied', 2, 'Solingen');
 ```
+--
 ## Auftrag DROP, ALTER, Update
 ```
 --  Regisseurname „Cohen“ vervollständigen zu „Etan Cohen“
@@ -221,12 +222,12 @@ ALTER TABLE bluray_sammlung
 CHANGE COLUMN film kinofilme VARCHAR(255) NOT NULL;
 ```
 ```
--- 12. Spalte „nummer“ löschen
+-- Spalte „nummer“ löschen
 ALTER TABLE bluray_sammlung
 DROP COLUMN nummer;
 ```
 ```
--- 13. Tabelle komplett löschen, da Firma geschlossen wurde
+-- Tabelle komplett löschen, da Firma geschlossen wurde
 DROP TABLE bluray_sammlung;
 ```
 
