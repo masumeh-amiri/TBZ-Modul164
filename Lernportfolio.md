@@ -34,8 +34,9 @@ und zusammenfassung  für die Theorien erstellt. Set für die MySQL workbench. i
 
 [Auftrag Fragen](Auftrag2.md)
 
+---
 ### 4.3.2025
-
+![gelöste Aufträge](Aufgaben_tag3.md)
 ### 11.3.2025
 wir haben LB1 Prüfung abgelegt. Leider habe ich meine alle miene SQL befehle und ERstellte ERD modell verloren und war nicht fähig es wieder grwinnen.
 Theorie zum             gelesen.
