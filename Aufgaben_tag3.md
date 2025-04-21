@@ -229,4 +229,113 @@ DROP COLUMN nummer;
 -- Tabelle komplett löschen, da Firma geschlossen wurde
 DROP TABLE bluray_sammlung;
 ```
+---
+
+ ## Auftrag SELECT
+
+### **a. Alle Datensätze der DVD-Sammlung anzeigen**
+```sql
+SELECT * FROM dvd_sammlung;
+```
+
+---
+
+### **b. Nur Filmtitel und zugehörige Nummer**
+```sql
+SELECT film, nummer FROM dvd_sammlung;
+```
+
+---
+
+### **c. Nur Filmtitel und zugehöriger Regisseur**
+```sql
+SELECT film, regisseur FROM dvd_sammlung;
+```
+
+---
+
+### **d. Alle Filme von Quentin Tarantino**
+```sql
+SELECT * FROM dvd_sammlung WHERE regisseur = 'Quentin Tarantino';
+```
+
+---
+
+### **e. Alle Filme von Steven Spielberg**
+```sql
+SELECT * FROM dvd_sammlung WHERE regisseur = 'Steven Spielberg';
+```
+
+---
+
+### **f. Filme, in denen der Regisseur den Vornamen "Steven" hat**
+```sql
+SELECT * FROM dvd_sammlung WHERE regisseur LIKE 'Steven%';
+```
+
+---
+
+### **g. Filme, die länger als 2 Stunden sind (also über 120 Minuten)**
+```sql
+SELECT * FROM dvd_sammlung WHERE laenge_minuten > 120;
+```
+
+---
+
+### **h. Filme von Tarantino oder Spielberg**
+```sql
+SELECT * FROM dvd_sammlung 
+WHERE regisseur = 'Quentin Tarantino' 
+   OR regisseur = 'Steven Spielberg';
+```
+
+---
+
+### **i. Filme von Tarantino, die kürzer als 90 Minuten sind**
+```sql
+SELECT * FROM dvd_sammlung 
+WHERE regisseur = 'Quentin Tarantino' 
+  AND laenge_minuten < 90;
+```
+
+---
+
+### **j. Film mit dem Wort "Sibirien" im Titel**
+```sql
+SELECT * FROM dvd_sammlung 
+WHERE film LIKE '%Sibirien%';
+```
+
+---
+
+### **k. Alle Teile von "Das große Rennen"**
+```sql
+SELECT * FROM dvd_sammlung 
+WHERE film LIKE 'Das große Rennen%';
+```
+
+---
+
+### **l. Filme sortiert nach Regisseur**
+```sql
+SELECT * FROM dvd_sammlung 
+ORDER BY regisseur;
+```
+
+---
+
+### **m. Filme sortiert nach Regisseur, dann nach Titel**
+```sql
+SELECT * FROM dvd_sammlung 
+ORDER BY regisseur, film;
+```
+
+---
+
+### **n. Filme von Tarantino, sortiert nach Länge (längste zuerst)**
+```sql
+SELECT * FROM dvd_sammlung 
+WHERE regisseur = 'Quentin Tarantino' 
+ORDER BY laenge_minuten DESC;
+```
 
