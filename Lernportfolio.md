@@ -16,11 +16,11 @@ In dieser Lektion habe ich meinen ERD-Entwurf mit der Lösung verglichen und ein
 
 ### Zusammenfassung des Generalisierung und Spezialiesierung
 
-[Generalisierung-Spezializierung](Genralisierug&spezialisierung.md)
+[Generalisierung und Spezializierung](Genralisierug&spezialisierung.md)
 
 ### zusammenfassung des identifying und non identifying Beziehung 
 
-[identifying -nonIdetifying-Beziehung]((non)identifying-Relation.md)
+[Identifying -NonIdetifying-Beziehung]((non)identifying-Relation.md)
 
 
 ### Zusammenfassung des Database Mangment System 
