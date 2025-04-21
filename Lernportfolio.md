@@ -1,4 +1,4 @@
-### 18.02.2025 (TAG1)
+### 18.02.2025 (Tag1)
 
 In der Lektion habe ich ein Recap des Moduls 162 gemacht. Dabei habe ich die Themen **Normalisierung**, **Konzeptionelles Datenmodell (ERM)**, **Logisches Datenmodell (ERD)** und **Physisches Datenmodell in SQL** wiederholt.  
  Anschliessend haben wir  die **Tourplaner-Aufgabe** entweder auf Papier oder in der **Workbench** umgesetzt.
@@ -10,7 +10,7 @@ In der Lektion habe ich ein Recap des Moduls 162 gemacht. Dabei habe ich die The
 
 
 [recap](recap.md)  
-### 25.2.2025(TAG2)
+### 25.2.2025(Tag2)
 In dieser Lektion habe ich meinen ERD-Entwurf mit der Lösung verglichen und eine Zusammenfassung der Theorien erstellt. Ich habe die MySQL Workbench eingerichtet und XAMPP installiert. Außerdem habe ich versucht, Tabellen in der Workbench zu erstellen und mit der Option "Forward Engineering" in eine SQL-Query umzuwandeln. 
 
 
@@ -31,7 +31,7 @@ In dieser Lektion habe ich meinen ERD-Entwurf mit der Lösung verglichen und ein
 [Auftrag Fragen](Auftrag2.md)
 
 ---
-### 4.3.2025(TAG3)
+### 4.3.2025(Tag3)
 
 Heute habe ich Aufgaben mit DML- und DQL-Befehlen (SELECT, INSERT, UPDATE, DROP, ALTER) gelöst und ein ERD-Modell zum Auftrag erstellt. Ausserdem habe ich die Unterschiede zwischen Mehrfachbeziehungen, Rekursion (strenge Hierarchie) und einfacher Hierarchie (mit Zwischentabelle) angeschaut.
 
@@ -40,7 +40,7 @@ Heute habe ich Aufgaben mit DML- und DQL-Befehlen (SELECT, INSERT, UPDATE, DROP,
 [gelöste Aufträge](Aufgaben_tag3.md)
 
 ---
-### 11.3.2025(TAG4)
+### 11.3.2025(Tag4)
 wir haben LB1 Prüfung abgelegt. Leider habe ich meine alle miene SQL befehle und ERstellte ERD modell verloren und war nicht fähig es wieder grwinnen.
 Theorie zum             gelesen.
 
@@ -51,7 +51,7 @@ Theorie zum             gelesen.
 [Checkpoint_Fragen](4.Tag_Checkpoint.md)
 
 [JOIN Tabelle](join.md)
-### 18.3.2025(TAG5)
+### 18.3.2025(Tag5)
 Resultat von LB1 züruckbekommen. Theorie zum Datenintegrität, DQL, DCL FK-Constraint-Option Regeln  und durch Merksatz (Warum Geht Herbert Oft Laufen?)
 die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in MySQL  gelernt .
 
@@ -59,7 +59,7 @@ die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in My
 [Alias Aufgabe](alias_Auftrag.md)
 
 ---
-### 25.3.2025(TAG6)
+### 25.3.2025(Tag6)
 Heute  wurde das Thema subqueroes behandelt.
  es würde empfohlen dass via diesieis Befehl in der Console arbeiten 
 ```
@@ -84,13 +84,13 @@ Aufgaben zum sqbquery gelost
 [](.md)
 
 ---
-### 1.4.2025(TAG7)
+### 1.4.2025(Tag7)
 
 
 [zusammenfassung](zusammenfassung7.md)
 
 ---
-## 7.4.2025(TAG8)
+## 7.4.2025(Tag8)
 Heute wurde Einführung Lernziel  Von LB2 Erklärtt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB 2 gearbeitet.
 
 
