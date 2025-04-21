@@ -19,9 +19,8 @@ Aufgabe 1
 | JSON                                                | JSON                          | '{ "name": "Max" }'         | Ab MariaDB 10.2.7, intern als LONGTEXT gespeichert             |
 
 ---
-Aufgabe2:
+## Auftrag insert 
 
-1-
 ### **a. Heinrich Schmitt aus Zürich, Schweiz (Kurzform)**
 
 ```
@@ -186,5 +185,48 @@ INSERT INTO kunden (vorname, nachname, land_id, wohnort) VALUES ('Brunhild', 'Su
 INSERT INTO kunden VALUE ('', 'Jochen', 'Schmied', 2, Solingen);
 -- Korrekt:
 INSERT INTO kunden (vorname, nachname, land_id, wohnort) VALUES ('Jochen', 'Schmied', 2, 'Solingen');
+```
+## Auftrag DROP, ALTER, Update
+```
+--  Regisseurname „Cohen“ vervollständigen zu „Etan Cohen“
+
+UPDATE dvd_sammlung
+SET regisseur = 'Etan Cohen'
+WHERE regisseur = 'Cohen';
+```
+```
+-- Filmlänge von „Angst“ korrigieren auf 120 Minuten
+UPDATE dvd_sammlung
+SET laenge_minuten = 120
+WHERE film = 'Angst';
+```
+```
+-- Tabelle umbenennen in „bluray_sammlung“
+RENAME TABLE dvd_sammlung TO bluray_sammlung;
+```
+```
+--  Spalte „Preis“ hinzufügen
+ALTER TABLE bluray_sammlung
+ADD COLUMN preis DECIMAL(5,2);
+```
+```
+--  Film „Angriff auf Rom“ entfernen
+DELETE FROM bluray_sammlung
+WHERE film = 'Angriff auf Rom';
+```
+```
+
+-- Spalte „film“ umbenennen in „kinofilme“
+ALTER TABLE bluray_sammlung
+CHANGE COLUMN film kinofilme VARCHAR(255) NOT NULL;
+```
+```
+-- 12. Spalte „nummer“ löschen
+ALTER TABLE bluray_sammlung
+DROP COLUMN nummer;
+```
+```
+-- 13. Tabelle komplett löschen, da Firma geschlossen wurde
+DROP TABLE bluray_sammlung;
 ```
 
