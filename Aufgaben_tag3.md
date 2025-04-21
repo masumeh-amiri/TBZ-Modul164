@@ -325,7 +325,7 @@ ORDER BY regisseur;
 ---
 
 ### **m. Filme sortiert nach Regisseur, dann nach Titel**
-```sql
+```
 SELECT * FROM dvd_sammlung 
 ORDER BY regisseur, film;
 ```
@@ -346,3 +346,65 @@ ORDER BY laenge_minuten DESC;
 ![Resultat:](integrität_pic/seld-f.jpg)
 ![Resultat:](integrität_pic/selgj.jpg)
 ![Resultat:](integrität_pic/selk-n.jpg)
+
+
+## Auftrag - Erweiterter Tourenplaner mit Daten füllen
+![ERD Modell](mitarbeiter.md)
+
+
+```
+INSERT INTO tbl_Mitarbeiter (ID_Mitarbeiter, Vorname, Name, Telefonnummer)
+VALUES
+(1, 'Hans', 'Muster', '+41 76 764 23 23'),
+(2, 'Theo', 'Dohr', '+41 79 324 55 78'),
+(3, 'Justin', 'Biber', '+41 79 872 12 32'),
+(4, 'Johann S.', 'Fluss', '+41 79 298 98 76'),
+(5, 'Diana', 'Knecht', '+41 78 323 77 00'),
+(6, 'Anna', 'Schöni', '+41 76 569 67 80'),
+(8, 'Lucy', 'Schmidt', '+49 420 232 2232'),
+(9, 'Ardit', 'Azubi', NULL);
+```
+ für Disponenten-Chefin (Anna Schöni):
+```
+-- Disponenten unter Anna Schöni
+UPDATE tbl_Mitarbeiter
+SET FS_Vorgesetzter = (
+    SELECT ID_Mitarbeiter
+    FROM tbl_Mitarbeiter
+    WHERE Vorname = 'Anna' AND Name = 'Schöni'
+)
+WHERE ID_Mitarbeiter IN (
+    SELECT ID_Mitarbeiter
+    FROM tbl_Mitarbeiter
+    WHERE (Vorname = 'Lucy' AND Name = 'Schmidt')
+       OR (Vorname = 'Hans' AND Name = 'Muster')
+);
+```
+```
+-- Fahrer unter Theo Dohr
+UPDATE tbl_Mitarbeiter
+SET FS_Vorgesetzter = (
+    SELECT ID_Mitarbeiter
+    FROM tbl_Mitarbeiter
+    WHERE Vorname = 'Theo' AND Name = 'Dohr'
+)
+WHERE ID_Mitarbeiter IN (
+    SELECT ID_Mitarbeiter
+    FROM tbl_Mitarbeiter
+    WHERE (Vorname = 'Diana' AND Name = 'Knecht')
+       OR (Vorname = 'Johann S.' AND Name = 'Fluss')
+       OR (Vorname = 'Hans' AND Name = 'Muster')
+);
+```
+tbl_Hierarchie Einträge
+```
+INSERT INTO tbl_Hierarchie (FS_Chef, FS_Mitarbeiter)
+VALUES
+(6, 1), -- Anna Schöni → Hans Muster
+(6, 8), -- Anna Schöni → Lucy Schmidt
+(2, 1), -- Theo Dohr → Hans Muster
+(2, 4), -- Theo Dohr → Johann S. Fluss
+(2, 5); -- Theo Dohr → Diana Knecht
+
+```
+
