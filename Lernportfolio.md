@@ -17,13 +17,15 @@ den Tourplaner Aufgabe auf Papier oder  in den und in den Workbench realisierrt:
 in  diesem lektion habe ich meine ERD Entwurf mit der Lösung vergleichen, 
 und zusammenfassung  für die Theorien erstellt. Set für die MySQL workbench. installieren von , XAMP sowie erstellen die Tabelle in  workbecnch un mit der option forward inginiering in sql query umwandel versucht jedoch war ich nicht erfolgreich 
 
-### zusammenfassung des identifying und non identifying Beziehung 
-
-[identifying -nonIdetifying-Beziehung]((non)identifying-Relation.md)
 
 ### Zusammenfassung des Generalisierung und Spezialiesierung
 
 [Generalisierung-Spezializierung](Genralisierug&spezialisierung.md)
+
+### zusammenfassung des identifying und non identifying Beziehung 
+
+[identifying -nonIdetifying-Beziehung]((non)identifying-Relation.md)
+[beispiel](beispiel2.md)
 
 ### Zusammenfassung des Database Mangment System 
 
