@@ -95,7 +95,7 @@ Ja, redundante Daten sind mehrfach gespeicherte Daten. Sie können durch schlech
 **Vermeidung:**  Normalisierung (z. B. durch Aufteilung in mehrere Tabellen mit Fremdschlüsseln).
 Beispiel für Redundanz:
 |KundeID|	Name	|Adresse	|Produkt| 
-|1	|Alice	|Berlin	|Laptop|--------------------------
+|1	|Alice	|Berlin	|Laptop|
 |1	|Alice|	Berlin	|Handy|
 
 Hier ist die Adresse doppelt gespeichert → Redundanz.
