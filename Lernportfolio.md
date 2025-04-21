@@ -56,7 +56,7 @@ die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in My
 Heute  wurde das Thema subqueroes behandelt.
  es würde empfohlen dass via diesieis Befehl in der Console arbeiten :
 #### Zusammenfassung diese Lektion:
-
+[zusammenfassung](Zusammenfassung6.md)
 
 ```
 mysql -u root - password < pfad / [filename]
