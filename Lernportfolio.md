@@ -54,6 +54,9 @@ die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in My
 
 [SELECT_GROUP BY Aufgabe](groupby.md)
 
+
+[SELECT_HAVING](having1.md)
+
 ---
 ### 25.3.2025(Tag6)
 Heute  wurde das Thema subqueroes behandelt.
