@@ -71,8 +71,8 @@ GROUP BY o.name
 HAVING COUNT(*) >= 10
 ORDER BY o.name ASC;
 ```
-
 ---
-![result](intägrität_pic/having1.jpg)
-![result](intägrität_pic/having2.jpg)
-![result](intägrität_pic/having3.jpg)
+![result](integrität_pic/having1.jpg)
+![result](integrität_pic/having2.jpg)
+![result](integrität_pic/having3.jpg)
+![result](integrität_pic/having4.jpg)
