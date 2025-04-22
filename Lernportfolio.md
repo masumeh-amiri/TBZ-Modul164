@@ -49,8 +49,10 @@ Resultat von LB1 züruckbekommen. Theorie zum Datenintegrität, DQL, DCL FK-Cons
 die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in MySQL  gelernt .
 
 ### Alias Aufgabe
+
 [SELECT_Alias Aufgabe](alias_Auftrag.md)
-[SELECT_GROUP BY Aufgabe](Groupby.md)
+
+[SELECT_GROUP BY Aufgabe](groupby.md)
 
 ---
 ### 25.3.2025(Tag6)
