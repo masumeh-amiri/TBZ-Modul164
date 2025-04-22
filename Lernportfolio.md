@@ -62,38 +62,28 @@ die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in My
 
 ---
 ### 25.3.2025(Tag6)
-Heute  wurde das Thema subqueroes behandelt.
- es würde empfohlen dass via diesieis Befehl in der Console arbeiten 
+Heute wurde das Thema Subqueries behandelt und Aufgaben dazu gelöst. Es wurde empfohlen, mit MySQL über die Konsole zu arbeiten.
+
 ```
 mysql -u root -h hostname
 ```
 
+[Zusammenfassung](Zusammenfassung6.md)
  
-#### Zusammenfassung diese Lektion:
-[zusammenfassung](Zusammenfassung6.md)
-
-Aufgaben zum sqbquery gelost 
-##### Checkpoint 
 [Checkpoint](checkpoint5.md)
 
-**Subqueries Aufgaben:**
+[Subqueries Aufgaben](subselect.md)
 
-[Subselect Aufgaben](subselect.md)
-
-**Aufgaben zum Toturial zum bulk import:**
-
-[Aufgaben_bulkimport ](toturial5.md)
-[](.md)
+[Aufgaben zum Toturial zum bulk import](toturial5.md)
 
 ---
 ### 1.4.2025(Tag7)
 
-
-[zusammenfassung](zusammenfassung7.md)
+[Zusammenfassung](zusammenfassung7.md)
 
 ---
 ### 8.4.2025(Tag8)
-Heute wurde Einführung Lernziel  Von LB2 Erklärtt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB 2 gearbeitet.
+Heute wurde Einführung Lernziel  Von LB2 Erklärt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB 2 gearbeitet.
 
 ---
 ### 8.4.2025(Tag9)
