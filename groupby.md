@@ -10,7 +10,7 @@ GROUP BY nationalitaet;
 ---
 
 ### 2. Wie viele Schüler wohnen in den einzelnen Orten?  
-(Spalten: **"Ort"**, **"Anzahl der Schüler"**, sortiert nach Anzahl absteigend)
+
 
 ```sql
 SELECT o.name AS Ort, COUNT(s.id) AS "Anzahl der Schüler"
@@ -23,7 +23,7 @@ ORDER BY "Anzahl der Schüler" DESC;
 ---
 
 ### 3. Wie viele Lehrer unterrichten die einzelnen Fächer?  
-(Ausgabe: **Fachbezeichnung**, **Anzahl**, sortiert nach Anzahl absteigend)
+
 
 ```sql
 SELECT f.fachbezeichnung AS Fachbezeichnung, COUNT(lhf.idLehrer) AS Anzahl
@@ -36,7 +36,6 @@ ORDER BY Anzahl DESC;
 ---
 
 ### 4. Welche Lehrer unterrichten welche Fächer?  
-(Ausgabe: **Fachbezeichnung**, **Lehrerliste** — KEINE Spalte für Anzahl)
 
 ```sql
 SELECT f.fachbezeichnung AS Fachbezeichnung,
@@ -47,12 +46,9 @@ JOIN lehrer l ON lhf.idLehrer = l.id
 GROUP BY f.fachbezeichnung
 ORDER BY COUNT(lhf.idLehrer) DESC;
 ```
-> Hinweis: `GROUP_CONCAT()` hängt die Lehrernamen zu einer Liste zusammen (durch Kommas getrennt).
-
 ---
 
 ### 5. Schülernamen + ihre Fächer + Lehrer  
-(Ausgabe: **"Schülername"**, **"Lehrer"**, **"Fächer"**)
 
 ```sql
 SELECT s.name AS Schülername, l.name AS Lehrer, f.fachbezeichnung AS Fächer
