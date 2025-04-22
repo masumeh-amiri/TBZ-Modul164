@@ -5,7 +5,7 @@
 SELECT name AS Schülername, 
        (noteMathe + noteDeutsch) / 2.0 AS Durchschnittsnote
 FROM schueler
-HAVING Durchschnittsnote < 4;
+HAVING Durchschnittsnote > 4;
 ```
 
 ---
@@ -16,7 +16,7 @@ HAVING Durchschnittsnote < 4;
 SELECT name AS Schülername, 
        ROUND((noteMathe + noteDeutsch) / 2.0, 1) AS Durchschnittsnote
 FROM schueler
-HAVING Durchschnittsnote < 4
+HAVING Durchschnittsnote > 4
 ORDER BY Durchschnittsnote ASC;
 ```
 
