@@ -62,6 +62,6 @@ JOIN lehrer l ON lhs.idLehrer = l.id
 JOIN lehrer_hat_faecher lhf ON l.id = lhf.idLehrer
 JOIN faecher f ON lhf.idFaecher = f.id;
 ```
-![result](integrität-pic/gr1-2.jpg)
-![result](intägrität-pic/gr3-4.jpg)
-![result](intägrität-pic/gr5.jpg)
+![result](integrität_pic/gr1-2.jpg)
+![result](intägrität_pic/gr3-4.jpg)
+![result](intägrität_pic/gr5.jpg)
