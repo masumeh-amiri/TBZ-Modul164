@@ -70,11 +70,11 @@ mysql -u root -h hostname
 
 [Zusammenfassung](Zusammenfassung6.md)
  
-[Checkpoint](checkpoint5.md)
-
 [Subqueries Aufgaben](subselect.md)
 
 [Aufgaben zum Toturial zum bulk import](toturial5.md)
+
+[Checkpoint](checkpoint5.md)
 
 ---
 ### 1.4.2025(Tag7)
