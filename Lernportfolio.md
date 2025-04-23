@@ -3,13 +3,14 @@
 In der Lektion habe ich ein Recap des Moduls 162 gemacht. Dabei habe ich die Themen **Normalisierung**, **Konzeptionelles Datenmodell (ERM)**, **Logisches Datenmodell (ERD)** und **Physisches Datenmodell in SQL** wiederholt.  
  Anschliessend haben wir  die **Tourplaner-Aufgabe** entweder auf Papier oder in der **Workbench** umgesetzt.
 
+ [recap Zusammenfassung](recap.md)  
+
 [SQL file](fahrt_normalisiert.sql)
 
 
 [ERD Model in Workbench](tourfahrt1.md)
 
-
-[recap](recap.md)  
+---
 ### 25.2.2025(Tag2)
 In dieser Lektion habe ich meinen ERD-Entwurf mit der Lösung verglichen und eine Zusammenfassung der Theorien erstellt. Ich habe die MySQL Workbench eingerichtet und XAMPP installiert. Ausserdem habe ich versucht, Tabellen in der Workbench zu erstellen und mit der Option "Forward Engineering" in eine SQL-Query umzuwandeln. 
 
@@ -48,6 +49,7 @@ Ich habe Inhalte zur Mengenlehre und DQL mit JOIN gelesen und Aufträge dazu gel
 Resultat von LB1 züruckbekommen. Theorie zum Datenintegrität, DQL, DCL FK-Constraint-Option Regeln  und durch Merksatz (Warum Geht Herbert Oft Laufen?)
 die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in MySQL  gelernt .
 
+---
 ### Alias Aufgabe
 
 [SELECT_Alias Aufgabe](alias_Auftrag.md)
@@ -81,6 +83,7 @@ mysql -u root -h hostname
 
 [Zusammenfassung](zusammenfassung7.md)
 
+
 ---
 ### 8.4.2025(Tag8)
 Heute wurde Einführung Lernziel  Von LB2 Erklärt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB 2 gearbeitet.
@@ -89,6 +92,7 @@ Heute wurde Einführung Lernziel  Von LB2 Erklärt .Ich habe meine Repetititon z
 ### 8.4.2025(Tag9)
 in diese lektion war ich abwesend wegen der Krankheit.
 
+---
 ### 6.5.2025(Tag 10)
 
 
