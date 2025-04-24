@@ -109,9 +109,9 @@ Damit wird sichergestellt, dass in dieser Spalte **keine NULL-Werte** erlaubt si
 Ein **Index** wird automatisch für Fremdschlüssel erstellt, weil:
 - **Datenbankabfragen schneller** durchgeführt werden können.
 - **Integritätsprüfungen effizienter** erfolgen: Wenn ein Wert in der referenzierten Tabelle nicht existiert, wird dies durch den Index schneller erkannt.
-- Ohne Index würde die Datenbank jedes Mal die komplette referenzierte Tabelle durchsuchen – was ineffizient wäre.
+- Ohne Index würde die Datenbank jedes Mal die komplette referenzierte Tabelle durchsuchen was ineffizient wäre.
 
-**Wichtig:** Der Index ist **technisch notwendig**, um die referenzielle Integrität beim Einfügen oder Löschen sicherzustellen.
+ Der Index ist **technisch notwendig**, um die referenzielle Integrität beim Einfügen oder Löschen sicherzustellen.
 
 ---
 
