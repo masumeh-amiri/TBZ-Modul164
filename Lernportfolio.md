@@ -1,3 +1,9 @@
+# Lernportfolio Modul 164 ( Datenbanken erstellen und Daten einfügen)
+
+
+![image](integrität_pic/dbvector.jpg)
+
+
 ### 18.02.2025 (Tag1)
 
 In der Lektion habe ich ein Recap des Moduls 162 gemacht. Dabei habe ich die Themen **Normalisierung**, **Konzeptionelles Datenmodell (ERM)**, **Logisches Datenmodell (ERD)** und **Physisches Datenmodell in SQL** wiederholt.  
