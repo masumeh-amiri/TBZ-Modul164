@@ -1,3 +1,5 @@
+# Constraint
+
 In SQL wird eine **FOREIGN KEY Constraint** verwendet, um eine Beziehung zwischen zwei Tabellen herzustellen. Sie stellt sicher, dass der Wert in einer Spalte (oder mehreren Spalten) einer Tabelle (**Kind-Tabelle**) mit einem Wert in einer Spalte einer anderen Tabelle (**Eltern-Tabelle**) übereinstimmt. Dies wird oft verwendet, um die **Referenzielle Integrität** in der Datenbank zu gewährleisten.
 
 Hier ist ein Beispiel, wie eine **FOREIGN KEY Constraint** in SQL erstellen wird:
