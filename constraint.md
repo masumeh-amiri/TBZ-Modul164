@@ -34,7 +34,7 @@ CREATE TABLE Bestellung (
 ---
 
 #### 2. **FOREIGN KEY Constraint nachträglich hinzufügen**
-Falls die Tabelle `Bestellung` bereits existiert und du den Fremdschlüssel später hinzufügen möchtest, kannst mann dies mit dem `ALTER TABLE`-Befehl tun:
+Falls die Tabelle `Bestellung` bereits existiert und du den Fremdschlüssel später hinzufügen möchtest, kann mann dies mit dem `ALTER TABLE`-Befehl tun:
 
 ```sql
 ALTER TABLE Bestellung
