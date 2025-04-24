@@ -79,9 +79,70 @@ CREATE TABLE Bestellung (
 
 ---
 
-### **Zusammenfassung**
+### **Fazit**
 - Eine **FOREIGN KEY Constraint** stellt sicher, dass die Daten in der Kind-Tabelle mit den Daten in der Eltern-Tabelle konsistent sind.
 - Du kannst sie entweder beim Erstellen der Tabelle (`CREATE TABLE`) oder später mit `ALTER TABLE` hinzufügen.
 - Optionen wie `ON DELETE` und `ON UPDATE` ermöglichen es, das Verhalten bei Lösch- oder Aktualisierungsoperationen zu steuern.
+---
+## Fragen zur Constraint Analyse:
 
-Ich hoffe, das hilft dir weiter! 😊
+### **1. Wie wird beim Fremdschlüssel der Constraint `NOT NULL` erstellt?**
+
+Der `NOT NULL`-Constraint wird direkt in der Tabellendefinition bei der Spalte gesetzt, die als Fremdschlüssel verwendet wird.
+ Dies geschieht
+ z. B. so:
+
+```sql
+FK_Fahrer INT NOT NULL,
+```
+
+Damit wird sichergestellt, dass in dieser Spalte **keine NULL-Werte** erlaubt sind jede Zeile **muss** einen gültigen Verweis
+ (eine ID) auf einen Datensatz
+ in der referenzierten Tabelle enthalten.
+
+---
+
+### **2. Weshalb wird für jeden Fremdschlüssel ein Index erstellt?**
+
+Ein **Index** wird automatisch für Fremdschlüssel erstellt, weil:
+- **Datenbankabfragen schneller** durchgeführt werden können.
+- **Integritätsprüfungen effizienter** erfolgen: Wenn ein Wert in der referenzierten Tabelle nicht existiert, wird dies durch den Index schneller erkannt.
+- Ohne Index würde die Datenbank jedes Mal die komplette referenzierte Tabelle durchsuchen – was ineffizient wäre.
+
+**Wichtig:** Der Index ist **technisch notwendig**, um die referenzielle Integrität beim Einfügen oder Löschen sicherzustellen.
+
+---
+
+### **3. Wie wird der Constraint `UNIQUE` für einen Fremdschlüssel im Workbench mit Forward Engineering erstellt?**
+
+In MySQL Workbench:
+- Auswahl die Spalte In der Tabellenstruktur, die der Fremdschlüssel sein soll.
+- Die Option „**UNIQUE**“ aktivieren.
+- Beim **Forward Engineering** wird dann im SQL-Skript folgender Code erzeugt:
+
+```sql
+FK_Fahrer INT UNIQUE,
+```
+---
+
+### **4. Allgemeine Syntax für die `CONSTRAINT`-Anweisung**
+
+
+```sql
+CONSTRAINT constraint_name
+FOREIGN KEY (Spaltenname)
+REFERENCES Referenztabelle (Spalte)
+[ON DELETE Aktion]
+[ON UPDATE Aktion];
+```
+
+**Beispiel:**
+
+```sql
+CONSTRAINT fk_fahrer_id
+FOREIGN KEY (FK_Fahrer)
+REFERENCES Fahrer(ID)
+ON DELETE CASCADE
+ON UPDATE CASCADE;
+```
+
