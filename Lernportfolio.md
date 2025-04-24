@@ -75,7 +75,7 @@ die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in My
 Heute wurde das Thema Subqueries behandelt und Aufgaben dazu gelöst. Es wurde empfohlen, mit MySQL über die Konsole zu arbeiten.
 
 ```
-mysql -u root -h hostname
+mysql -u root -h localhost
 ```
 
 [Zusammenfassung](Zusammenfassung6.md)
