@@ -1,7 +1,7 @@
 # Lernportfolio Modul 164 ( Datenbanken erstellen und Daten einfügen)
 
 
-![image](integrität_pic/dbvector.jpg)
+![image](integrität_pic/dbvector.png)
 
 
 ### 18.02.2025 (Tag1)
