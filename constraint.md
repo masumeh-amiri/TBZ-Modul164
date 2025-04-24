@@ -1,6 +1,6 @@
 In SQL wird eine **FOREIGN KEY Constraint** verwendet, um eine Beziehung zwischen zwei Tabellen herzustellen. Sie stellt sicher, dass der Wert in einer Spalte (oder mehreren Spalten) einer Tabelle (**Kind-Tabelle**) mit einem Wert in einer Spalte einer anderen Tabelle (**Eltern-Tabelle**) übereinstimmt. Dies wird oft verwendet, um die **Referenzielle Integrität** in der Datenbank zu gewährleisten.
 
-Hier ist ein Beispiel, wie du eine **FOREIGN KEY Constraint** in SQL erstellen kannst:
+Hier ist ein Beispiel, wie eine **FOREIGN KEY Constraint** in SQL erstellen wird:
 
 ---
 
@@ -32,7 +32,7 @@ CREATE TABLE Bestellung (
 ---
 
 #### 2. **FOREIGN KEY Constraint nachträglich hinzufügen**
-Falls die Tabelle `Bestellung` bereits existiert und du den Fremdschlüssel später hinzufügen möchtest, kannst du dies mit dem `ALTER TABLE`-Befehl tun:
+Falls die Tabelle `Bestellung` bereits existiert und du den Fremdschlüssel später hinzufügen möchtest, kannst mann dies mit dem `ALTER TABLE`-Befehl tun:
 
 ```sql
 ALTER TABLE Bestellung
@@ -40,14 +40,14 @@ ADD CONSTRAINT fk_kunde
 FOREIGN KEY (KundenID) REFERENCES Kunde(KundenID);
 ```
 
-- **`fk_kunde`:** Der Name der Constraint (optional). Wenn du keinen Namen angibst, wird einer automatisch generiert.
+- **`fk_kunde`:** Der Name der Constraint (optional). Wenn  keinen Namen angegeben wurde, wird einer automatisch generiert.
 - **`KundenID`:** Die Spalte in der Kind-Tabelle (`Bestellung`), die als Fremdschlüssel fungiert.
 - **`REFERENCES Kunde(KundenID)`:** Verweist auf die Spalte `KundenID` in der Eltern-Tabelle (`Kunde`).
 
 ---
 
 ### **Optionen für FOREIGN KEY Constraints**
-Du kannst zusätzliche Optionen für die FOREIGN KEY Constraint festlegen, um das Verhalten bei Lösch- oder Aktualisierungsoperationen zu steuern:
+Mann kann zusätzliche Optionen für die FOREIGN KEY Constraint festlegen, um das Verhalten bei Lösch- oder Aktualisierungsoperationen zu steuern:
 
 #### 1. **ON DELETE**
 - **`ON DELETE CASCADE`:** Wenn ein Datensatz in der Eltern-Tabelle gelöscht wird, werden alle zugehörigen Datensätze in der Kind-Tabelle ebenfalls gelöscht.
@@ -80,8 +80,8 @@ CREATE TABLE Bestellung (
 ---
 
 ### **Fazit**
-- Eine **FOREIGN KEY Constraint** stellt sicher, dass die Daten in der Kind-Tabelle mit den Daten in der Eltern-Tabelle konsistent sind.
-- Du kannst sie entweder beim Erstellen der Tabelle (`CREATE TABLE`) oder später mit `ALTER TABLE` hinzufügen.
+- Eine **FOREIGN KEY Constraint** stellt sicher, dass die Daten in der Kind-Tabelle mit den Daten in der Eltern-Tabelle **konsistent** sind.
+- Mann kann sie entweder beim Erstellen der Tabelle (`CREATE TABLE`) oder später mit `ALTER TABLE` hinzufügen.
 - Optionen wie `ON DELETE` und `ON UPDATE` ermöglichen es, das Verhalten bei Lösch- oder Aktualisierungsoperationen zu steuern.
 ---
 ## Fragen zur Constraint Analyse:
