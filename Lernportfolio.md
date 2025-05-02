@@ -97,10 +97,12 @@ mysql -u root -h localhost
 Heute wurde Einführung Lernziel  Von LB2 Erklärt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB 2 gearbeitet.
 
 ---
-### 8.4.2025(Tag9)
-in diese lektion war ich abwesend wegen der Krankheit.
+### 15.4.2025(Tag9)
+in diese lektion war ich abwesend wegen der Krankheit.Jdeoche habe ich die Aufträge bearbeitet.
+
 
 ---
 ### 6.5.2025(Tag 10)
+Heute Habe ich die LB2 nachgeholt und 
 
 
