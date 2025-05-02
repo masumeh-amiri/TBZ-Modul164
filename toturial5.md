@@ -13,9 +13,15 @@
 ![]()
 
 ### Fragen:
+
+Studieren Sie das CSV-File. Was geschieht jeweils bei fehlenden Werten? (ID, Datum, ..., FS (NN) )
+Studieren Sie die Warnings im Output-Fenster.
+Testen Sie den Import mit und ohne Datums-Anpassung (→ (ID_Beispiel,Name, Geb_Datum, Zahl, FS);). Resultate?
+### Antworten:
+
 1.Wenn das Feld NOT NULL ist, gibt es einen Fehler oder eine Warnung.
-2.
-„Incorrect date value“ → Das bedeutet, dass ein falsches Datumsformat in der CSV-Datei ist.
+
+2.„Incorrect date value“ → Das bedeutet, dass ein falsches Datumsformat in der CSV-Datei ist.
 
 3.Ohne Datumsanpassung ((ID_Beispiel, Name, Geb_Datum, Zahl, FS);)
 
