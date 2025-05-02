@@ -21,7 +21,6 @@ In der Lektion habe ich ein Recap des Moduls 162 gemacht. Dabei habe ich die The
 In dieser Lektion habe ich meinen ERD-Entwurf mit der Lösung verglichen und eine Zusammenfassung der Theorien erstellt. Ich habe die MySQL Workbench eingerichtet und XAMPP installiert. Ausserdem habe ich versucht, Tabellen in der Workbench zu erstellen und mit der Option "Forward Engineering" in eine SQL-Query umzuwandeln. 
 
 
-
 [Zusammenfassung des Generalisierung und Spezialiesierung](Genralisierug&spezialisierung.md)
 
 [Zusammenfassung des identifying und non identifying Beziehung ]((non)identifying-Relation.md)
@@ -56,8 +55,8 @@ Ich habe Inhalte zur Mengenlehre und DQL mit JOIN gelesen und Aufträge dazu gel
 ### 18.3.2025(Tag5)
 Heute haben wir das Resultat von LB1 zurückbekommen. Ich habe Theorie zur Datenintegrität, zu DQL, DCL, den FK-Constraint-Optionen und den entsprechenden Regeln behandelt unterstützt durch einen Merksatz ("Warum Geht Herbert Oft Laufen?"). Ausserdem habe ich  in MySQL die Reihenfolge der Befehle WHERE, GROUP BY, HAVING, ORDER BY, LIMIT gelernt.
 
----
-### Alias Aufgabe
+
+[Datenintegrität Aufgaben](ref_integrität.md)
 
 [SELECT_Alias Aufgabe](alias_Auftrag.md)
 
@@ -88,6 +87,7 @@ mysql -u root -h localhost
 ### 1.4.2025(Tag7)
 Heute habe ich über Verschiedine arten von Daten Backup gelesen und Aufgaben zum Praxis Arbeit bearbeitet sowie Logisches Backup erstellt.
 Daten normalisiert einbinden
+
 [Zusammenfassung](zusammenfassung7.md)
 
 [Auftrag Daten normalisiert einbinden,(Praxis)]()
@@ -95,7 +95,9 @@ Daten normalisiert einbinden
 
 ---
 ### 8.4.2025(Tag8)
-Heute wurde Einführung Lernziel  Von LB2 Erklärt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB 2 gearbeitet.
+Heute wurde Einführung Lernziel  Von LB2 Erklärt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB2 gearbeitet.
+
+
 
 ---
 ### 15.4.2025(Tag9)
