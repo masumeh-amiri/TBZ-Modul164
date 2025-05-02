@@ -54,8 +54,7 @@ Ich habe Inhalte zur Mengenlehre und DQL mit JOIN gelesen und Aufträge dazu gel
 
 ---
 ### 18.3.2025(Tag5)
-Resultat von LB1 züruckbekommen. Theorie zum Datenintegrität, DQL, DCL FK-Constraint-Option Regeln  und durch Merksatz (Warum Geht Herbert Oft Laufen?)
-die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in MySQL  gelernt .
+Heute haben wir das Resultat von LB1 zurückbekommen. Ich habe Theorie zur Datenintegrität, zu DQL, DCL, den FK-Constraint-Optionen und den entsprechenden Regeln behandelt unterstützt durch einen Merksatz ("Warum Geht Herbert Oft Laufen?"). Ausserdem habe ich  in MySQL die Reihenfolge der Befehle WHERE, GROUP BY, HAVING, ORDER BY, LIMIT gelernt.
 
 ---
 ### Alias Aufgabe
@@ -72,8 +71,7 @@ die Reihenfoge von Befehle   WHERE, GROUP BY, HAVING, ORDER BY, LIMIT muss in My
 
 ---
 ### 25.3.2025(Tag6)
-Heute wurde das Thema Subqueries behandelt und Aufgaben dazu gelöst. Es wurde empfohlen, mit MySQL über die Konsole zu arbeiten.
-
+Heute wurde das Thema Subqueries behandelt, und es wurden dazu Aufgaben gelöst. Es wurde empfohlen, mit MySQL über die Konsole zu arbeiten.
 ```
 mysql -u root -h localhost
 ```
@@ -88,8 +86,11 @@ mysql -u root -h localhost
 
 ---
 ### 1.4.2025(Tag7)
-
+Heute habe ich über Verschiedine arten von Daten Backup gelesen und Aufgaben zum Praxis Arbeit bearbeitet sowie Logisches Backup erstellt.
+Daten normalisiert einbinden
 [Zusammenfassung](zusammenfassung7.md)
+
+[Auftrag Daten normalisiert einbinden,(Praxis)]()
 
 
 ---
@@ -98,11 +99,12 @@ Heute wurde Einführung Lernziel  Von LB2 Erklärt .Ich habe meine Repetititon z
 
 ---
 ### 15.4.2025(Tag9)
-in diese lektion war ich abwesend wegen der Krankheit.Jdeoche habe ich die Aufträge bearbeitet.
+in diese Lektion war ich abwesend wegen der Krankheit.
 
 
 ---
 ### 6.5.2025(Tag 10)
-Heute Habe ich die LB2 nachgeholt und 
+Heute Habe ich die LB2 nachgeholt und Auftäge zum  CTE und Stored Procedures gelöst.
+[Script Aufgaben CTE und Stored Procedures]()
 
 
