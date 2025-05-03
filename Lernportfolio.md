@@ -90,13 +90,13 @@ Daten normalisiert einbinden
 
 [Zusammenfassung](zusammenfassung7.md)
 
-[Auftrag Daten normalisiert einbinden,(Praxis)]()
+[Auftrag Daten normalisiert einbinden,(Praxis)](tag7.md)
 
 
 ---
 ### 8.4.2025(Tag8)
-Heute wurde Einführung Lernziel  Von LB2 Erklärt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB2 gearbeitet.
-
+Heute wurde Einführung Lernziel Von LB2 Erklärt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB2 gearbeitet.
+[Auftrag zum Daten normalisiert einbinden](Tag8.md)
 
 
 ---
