@@ -102,6 +102,8 @@ Falls es eine rekursive Beziehung gibt (ein Projekt kann sich auf ein anderes Pr
 Falls der Fremdschlüssel auf tbl_Projekt verweist, dürfen nur Werte eingefügt werden, die bereits existieren.
 Falls das nicht der Fall ist, kann das Einfügen eines neuen Projekts scheitern, wenn keine gültige Referenz existiert.
 
+---
+
 ## Referenzielle Intägrität Aufgaben
 ![](subquery_pic/integ1.jpg)
 ![]((subquery_pic/integ2.jpg)
