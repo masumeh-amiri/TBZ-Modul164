@@ -101,3 +101,8 @@ SQL verhindert das Einfügen oder Aktualisieren des Datensatzes, wenn ein nicht 
 Falls es eine rekursive Beziehung gibt (ein Projekt kann sich auf ein anderes Projekt beziehen), könnte eine FK-Abhängigkeit existieren.
 Falls der Fremdschlüssel auf tbl_Projekt verweist, dürfen nur Werte eingefügt werden, die bereits existieren.
 Falls das nicht der Fall ist, kann das Einfügen eines neuen Projekts scheitern, wenn keine gültige Referenz existiert.
+
+## Referenzielle Intägrität Aufgaben
+![](subquery_pic/integ1.jpg)
+![]((subquery_pic/integ2.jpg)
+
