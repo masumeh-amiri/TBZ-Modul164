@@ -9,8 +9,8 @@
 
 
 ---
-##  1. Leere Felder und Datumsformat anpassen
-![]()
+##  Leere Felder und Datumsformat anpassen
+![](subquery_pic/leer.jpg)
 
 ### Fragen:
 
@@ -28,7 +28,14 @@ Testen Sie den Import mit und ohne Datums-Anpassung (→ (ID_Beispiel,Name, Geb_
 ❌ Wenn das CSV-Datum nicht im Standardformat der Datenbank (z. B. YYYY-MM-DD) ist, gibt es einen Fehler.
 
 
-## 2. Spaltenreihenfolge ändern
+## Spaltenreihenfolge ändern
+
+![](subquery_pic/leer2.jpg)
+
+
+## Spalten überspringen
+
+![](subquery_pic/leer3.jpg)
 
 ---
 ## Datenbasis DB_Adressen Aufgabe
