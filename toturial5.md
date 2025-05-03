@@ -1,4 +1,4 @@
-## gelöste Aufaben des Bulkimports
+## Aufaben zum import file
 
 ![](/subquery_pic/import1.jpg)
 ![A1](/subquery_pic/discount_import.jpg)
