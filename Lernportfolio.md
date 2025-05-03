@@ -94,19 +94,23 @@ Daten normalisiert einbinden
 
 
 ---
+
 ### 8.4.2025(Tag8)
-Heute wurde Einführung Lernziel Von LB2 Erklärt .Ich habe meine Repetititon zum LB1 abgelegt und danach weiter an der  Aufgaben zum Vorbreitung LB2 gearbeitet.
+Heute wurde das Einführungslernziel von LB2 erklärt. Ich habe meine Wiederholung zu LB1 abgeschlossen und danach weiter an den Aufgaben zur Vorbereitung von LB2 gearbeitet.
+
 [Auftrag zum Daten normalisiert einbinden](Tag8.md)
 
 
 ---
 ### 15.4.2025(Tag9)
-in diese Lektion war ich abwesend wegen der Krankheit.
 
+In dieser Lektion war ich wegen Krankheit abwesend.
 
 ---
 ### 6.5.2025(Tag 10)
+
 Heute Habe ich die LB2 nachgeholt und Auftäge zum  CTE und Stored Procedures gelöst.
-[Script Aufgaben CTE und Stored Procedures]()
+
+[Script Aufgaben CTE und Stored Procedures](tag9.md)
 
 
