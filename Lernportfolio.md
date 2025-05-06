@@ -111,6 +111,7 @@ In dieser Lektion war ich wegen Krankheit abwesend.
 
 Heute Habe ich die LB2 nachgeholt und Auftäge zum  CTE und Stored Procedures gelöst.
 
+
 [Script Aufgaben CTE und Stored Procedures](tag9.md)
 
 
