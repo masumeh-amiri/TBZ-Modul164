@@ -27,7 +27,7 @@ Ein **Index** wird automatisch für einen Fremdschlüssel erstellt, um die **Lei
 ---
 
 ### 3. **Wie wird der Constraint UNIQUE für einen Fremdschlüssel im Workbench mit Forward Engineering erstellt?**
-Der **UNIQUE Constraint** stellt sicher, dass die Werte in einer Spalte eindeutig sind. Im MySQL Workbench kannst du dies beim **Forward Engineering** (Erstellen des Datenbankschemas aus einem Modell) festlegen.
+Der **UNIQUE Constraint** stellt sicher, dass die Werte in einer Spalte eindeutig sind. Im MySQL Workbench kann mann dies beim **Forward Engineering** (Erstellen des Datenbankschemas aus einem Modell) festlegen.
 
 #### Beispiel:
 ```
@@ -43,10 +43,10 @@ CREATE TABLE Fahrer (
 - **`FOREIGN KEY`:** Verweist auf die `FahrzeugID` in der Tabelle `Fahrzeug`.
 
 #### Im MySQL Workbench:
-1. Öffne das Tabellen-Definitionsfenster.
-2. Wähle die Spalte aus, die der Fremdschlüssel sein soll.
-3. Setze das Häkchen bei **UNIQUE** in den Spalteneigenschaften.
-4. Führe das **Forward Engineering** durch, um das Skript zu generieren.
+1. Öffnen das Tabellen-Definitionsfenster.
+2. Wählen die Spalte aus, die der Fremdschlüssel sein soll.
+3. Setzen das Häkchen bei **UNIQUE** in den Spalteneigenschaften.
+4. Führen das **Forward Engineering** durch, um das Skript zu generieren.
 
 ---
 
