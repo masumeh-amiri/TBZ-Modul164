@@ -104,5 +104,5 @@ Falls das nicht der Fall ist, kann das Einfügen eines neuen Projekts scheitern,
 
 ## Referenzielle Intägrität Aufgaben
 ![](subquery_pic/integ1.jpg)
-![]((subquery_pic/integ2.jpg)
+![](subquery_pic/integ2.jpg)
 
