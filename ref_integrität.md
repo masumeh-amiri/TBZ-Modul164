@@ -78,8 +78,6 @@ CREATE TABLE Bestellung (
 - **`REFERENCES Kunde(KundenID)`:** Verweist auf die Eltern-Tabelle und Spalte.
 - **`ON DELETE CASCADE` und `ON UPDATE CASCADE`:** Optionen für das Verhalten bei Lösch- oder Aktualisierungsoperationen.
 
----
-### **Beachte:**
 - Jede Beziehung (Fremdschlüssel) wird mit einem **Constraint** versehen, um die **referenzielle Integrität** sicherzustellen.
 - Ein **UNIQUE Constraint** kann auch direkt in der Fremdschlüsselspalte gesetzt werden:  
   ```sql
